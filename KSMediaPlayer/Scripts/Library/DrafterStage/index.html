@@ -1,0 +1,3865 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Draft Stage</title>
+    <script id="data">
+        DrafterData = [
+  {
+    "isSwift" : false,
+    "type" : "class",
+    "name" : "KxMovieGLRenderer_YUV",
+    "super" : "NSObject",
+    "methods" : {
+      "D49DCFF8BD27C2793826A3B03B95B6267" : {
+        "invokes" : [
+
+        ],
+        "id" : "D49DCFF8BD27C2793826A3B03B95B6267",
+        "classId" : "D39124FA6D1BD8625BACDC84E56F54802",
+        "returnType" : "void",
+        "params" : [
+          {
+            "sel" : "dealloc",
+            "name" : "",
+            "type" : ""
+          }
+        ],
+        "isSwift" : false,
+        "static" : false,
+        "accessControl" : "private",
+        "type" : "method"
+      },
+      "D8AD2FB06D23CDF382B21B39D2930E998" : {
+        "accessControl" : "private",
+        "isSwift" : false,
+        "classId" : "D39124FA6D1BD8625BACDC84E56F54802",
+        "params" : [
+          {
+            "type" : "",
+            "name" : "",
+            "sel" : "isValid"
+          }
+        ],
+        "invokes" : [
+
+        ],
+        "static" : false,
+        "type" : "method",
+        "id" : "D8AD2FB06D23CDF382B21B39D2930E998",
+        "returnType" : "BOOL"
+      },
+      "DA176C54B818BB173CEDCD38C29FBDB3F" : {
+        "returnType" : "void",
+        "isSwift" : false,
+        "accessControl" : "private",
+        "params" : [
+          {
+            "type" : "KxVideoFrame *",
+            "name" : "frame",
+            "sel" : "setFrame"
+          }
+        ],
+        "id" : "DA176C54B818BB173CEDCD38C29FBDB3F",
+        "invokes" : [
+
+        ],
+        "type" : "method",
+        "classId" : "D39124FA6D1BD8625BACDC84E56F54802",
+        "static" : false
+      },
+      "D07268D65B4AC97114A741094225C1E8E" : {
+        "returnType" : "NSString *",
+        "id" : "D07268D65B4AC97114A741094225C1E8E",
+        "isSwift" : false,
+        "classId" : "D39124FA6D1BD8625BACDC84E56F54802",
+        "type" : "method",
+        "accessControl" : "private",
+        "static" : false,
+        "invokes" : [
+
+        ],
+        "params" : [
+          {
+            "type" : "",
+            "name" : "",
+            "sel" : "fragmentShader"
+          }
+        ]
+      },
+      "D61FB16559DB15AC9CAECE4BBD57F7459" : {
+        "classId" : "D39124FA6D1BD8625BACDC84E56F54802",
+        "id" : "D61FB16559DB15AC9CAECE4BBD57F7459",
+        "isSwift" : false,
+        "static" : false,
+        "accessControl" : "private",
+        "type" : "method",
+        "returnType" : "void",
+        "invokes" : [
+
+        ],
+        "params" : [
+          {
+            "name" : "program",
+            "type" : "GLuint",
+            "sel" : "resolveUniforms"
+          }
+        ]
+      },
+      "D02F91197EF91552D2DD1D04430D34296" : {
+        "id" : "D02F91197EF91552D2DD1D04430D34296",
+        "static" : false,
+        "params" : [
+          {
+            "name" : "",
+            "type" : "",
+            "sel" : "prepareRender"
+          }
+        ],
+        "returnType" : "BOOL",
+        "accessControl" : "private",
+        "isSwift" : false,
+        "classId" : "D39124FA6D1BD8625BACDC84E56F54802",
+        "invokes" : [
+
+        ],
+        "type" : "method"
+      }
+    },
+    "accessControl" : "public",
+    "id" : "D39124FA6D1BD8625BACDC84E56F54802",
+    "protocols" : [
+      {
+        "id" : "D7CB51A51E2F3884654AD7D788E4E5611",
+        "name" : "KxMovieGLRenderer"
+      }
+    ]
+  },
+  {
+    "methods" : {
+      "D455744D6F1226272A73EB0EF7EDD184A" : {
+        "type" : "method",
+        "isSwift" : false,
+        "params" : [
+          {
+            "name" : "",
+            "type" : "",
+            "sel" : "type"
+          }
+        ],
+        "classId" : "D19AADA1558B539E5914F8849AD621599",
+        "returnType" : "KxMovieFrameType",
+        "id" : "D455744D6F1226272A73EB0EF7EDD184A",
+        "invokes" : [
+
+        ],
+        "static" : false,
+        "accessControl" : "private"
+      }
+    },
+    "accessControl" : "public",
+    "name" : "KxVideoFrame",
+    "super" : "KxMovieFrame",
+    "id" : "D19AADA1558B539E5914F8849AD621599",
+    "protocols" : [
+
+    ],
+    "type" : "class",
+    "isSwift" : false
+  },
+  {
+    "methods" : {
+      "DC5EC14A354ED28CBA39F22FB8EE6E8F1" : {
+        "params" : [
+          {
+            "name" : "",
+            "sel" : "frameHeight",
+            "type" : ""
+          }
+        ],
+        "accessControl" : "private",
+        "type" : "method",
+        "id" : "DC5EC14A354ED28CBA39F22FB8EE6E8F1",
+        "isSwift" : false,
+        "static" : false,
+        "invokes" : [
+
+        ],
+        "classId" : "DBCB1CACB0E038BF8F6514D7E09B389F6",
+        "returnType" : "NSUInteger"
+      },
+      "D3B1981CA6AF78F9F1E18EFB3C46418C9" : {
+        "type" : "method",
+        "invokes" : [
+
+        ],
+        "static" : false,
+        "accessControl" : "private",
+        "id" : "D3B1981CA6AF78F9F1E18EFB3C46418C9",
+        "returnType" : "NSUInteger",
+        "isSwift" : false,
+        "classId" : "DBCB1CACB0E038BF8F6514D7E09B389F6",
+        "params" : [
+          {
+            "sel" : "frameWidth",
+            "type" : "",
+            "name" : ""
+          }
+        ]
+      },
+      "DB24598C7B4E392EFC8A2684E65F2BE61" : {
+        "accessControl" : "private",
+        "type" : "method",
+        "classId" : "DBCB1CACB0E038BF8F6514D7E09B389F6",
+        "static" : false,
+        "id" : "DB24598C7B4E392EFC8A2684E65F2BE61",
+        "params" : [
+          {
+            "type" : "NSInteger",
+            "sel" : "openSubtitleStream",
+            "name" : "subtitleStream"
+          }
+        ],
+        "returnType" : "kxMovieError",
+        "isSwift" : false,
+        "invokes" : [
+          {
+            "formatedName" : "[[NSString alloc] initWithBytes: length: encoding:]"
+          },
+          {
+            "formatedName" : "[KxMovieSubtitleASSParser parseEvents:]"
+          },
+          {
+            "formatedName" : "[fields componentsJoinedByString:]"
+          }
+        ]
+      },
+      "D47699AF853B6FCEF4C386B817640BEF8" : {
+        "invokes" : [
+
+        ],
+        "type" : "method",
+        "id" : "D47699AF853B6FCEF4C386B817640BEF8",
+        "isSwift" : false,
+        "static" : false,
+        "classId" : "DBCB1CACB0E038BF8F6514D7E09B389F6",
+        "params" : [
+          {
+            "type" : "",
+            "name" : "",
+            "sel" : "startTime"
+          }
+        ],
+        "returnType" : "CGFloat",
+        "accessControl" : "private"
+      },
+      "D2DF3817AC7854C3C704D606A783A50A9" : {
+        "classId" : "DBCB1CACB0E038BF8F6514D7E09B389F6",
+        "invokes" : [
+          {
+            "classId" : "DBCB1CACB0E038BF8F6514D7E09B389F6",
+            "methodId" : "DC2E28AA593171D89F46B5C61FE5D0319"
+          },
+          {
+            "classId" : "DBCB1CACB0E038BF8F6514D7E09B389F6",
+            "methodId" : "DAB7165ACA9C542AD75E0EE55CB45E927"
+          },
+          {
+            "classId" : "DBCB1CACB0E038BF8F6514D7E09B389F6",
+            "methodId" : "D8FC69E029360A814358BBE62EDC43764"
+          },
+          {
+            "methodId" : "D5E93F9E8903678C5E549B95D9BA2EF63",
+            "classId" : "DBCB1CACB0E038BF8F6514D7E09B389F6"
+          }
+        ],
+        "isSwift" : false,
+        "accessControl" : "public",
+        "type" : "method",
+        "id" : "D2DF3817AC7854C3C704D606A783A50A9",
+        "params" : [
+          {
+            "sel" : "openFile",
+            "type" : "NSString *",
+            "name" : "path"
+          },
+          {
+            "type" : "NSError * *",
+            "sel" : "error",
+            "name" : "perror"
+          }
+        ],
+        "returnType" : "BOOL",
+        "static" : false
+      },
+      "DA4E9E4E86EDC2B0E969114D158F8CD16" : {
+        "accessControl" : "private",
+        "returnType" : "void",
+        "params" : [
+          {
+            "name" : "",
+            "sel" : "initialize",
+            "type" : ""
+          }
+        ],
+        "type" : "method",
+        "id" : "DA4E9E4E86EDC2B0E969114D158F8CD16",
+        "isSwift" : false,
+        "invokes" : [
+
+        ],
+        "static" : true,
+        "classId" : "DBCB1CACB0E038BF8F6514D7E09B389F6"
+      },
+      "D14DE1EE022821D830C4BC9F533985FEE" : {
+        "invokes" : [
+
+        ],
+        "returnType" : "CGFloat",
+        "params" : [
+          {
+            "type" : "",
+            "sel" : "duration",
+            "name" : ""
+          }
+        ],
+        "classId" : "DBCB1CACB0E038BF8F6514D7E09B389F6",
+        "accessControl" : "private",
+        "id" : "D14DE1EE022821D830C4BC9F533985FEE",
+        "type" : "method",
+        "isSwift" : false,
+        "static" : false
+      },
+      "D22D8BF960E6946E824790F45EEF610A5" : {
+        "type" : "method",
+        "static" : false,
+        "isSwift" : false,
+        "invokes" : [
+
+        ],
+        "returnType" : "BOOL",
+        "id" : "D22D8BF960E6946E824790F45EEF610A5",
+        "classId" : "DBCB1CACB0E038BF8F6514D7E09B389F6",
+        "accessControl" : "private",
+        "params" : [
+          {
+            "type" : "",
+            "name" : "",
+            "sel" : "validSubtitles"
+          }
+        ]
+      },
+      "DC2E28AA593171D89F46B5C61FE5D0319" : {
+        "isSwift" : false,
+        "returnType" : "kxMovieError",
+        "accessControl" : "private",
+        "id" : "DC2E28AA593171D89F46B5C61FE5D0319",
+        "invokes" : [
+          {
+            "formatedName" : "[path cStringUsingEncoding:]"
+          }
+        ],
+        "type" : "method",
+        "static" : false,
+        "classId" : "DBCB1CACB0E038BF8F6514D7E09B389F6",
+        "params" : [
+          {
+            "type" : "NSString *",
+            "sel" : "openInput",
+            "name" : "path"
+          }
+        ]
+      },
+      "D251EEAB36DBBBC32845B419F834C536B" : {
+        "id" : "D251EEAB36DBBBC32845B419F834C536B",
+        "accessControl" : "private",
+        "classId" : "DBCB1CACB0E038BF8F6514D7E09B389F6",
+        "params" : [
+          {
+            "name" : "videoStream",
+            "sel" : "openVideoStream",
+            "type" : "NSInteger"
+          }
+        ],
+        "invokes" : [
+
+        ],
+        "static" : false,
+        "type" : "method",
+        "returnType" : "kxMovieError",
+        "isSwift" : false
+      },
+      "DA935762C42340CAAD95B0F1B06772886" : {
+        "returnType" : "NSArray *",
+        "id" : "DA935762C42340CAAD95B0F1B06772886",
+        "static" : false,
+        "isSwift" : false,
+        "type" : "method",
+        "classId" : "DBCB1CACB0E038BF8F6514D7E09B389F6",
+        "accessControl" : "public",
+        "invokes" : [
+          {
+            "formatedName" : "[NSMutableArray array]"
+          },
+          {
+            "methodId" : "DD1E9864A173E91C3B472F4F19B53E84B",
+            "classId" : "DBCB1CACB0E038BF8F6514D7E09B389F6"
+          },
+          {
+            "formatedName" : "[result addObject:]"
+          },
+          {
+            "methodId" : "DAB2D95DB894840300CA7829D4FED1F32",
+            "classId" : "DBCB1CACB0E038BF8F6514D7E09B389F6"
+          },
+          {
+            "formatedName" : "[[KxArtworkFrame alloc] init]"
+          },
+          {
+            "formatedName" : "[NSData dataWithBytes: length:]"
+          },
+          {
+            "classId" : "DBCB1CACB0E038BF8F6514D7E09B389F6",
+            "methodId" : "D46E973E07B3485C3172112EFCF54BC25"
+          }
+        ],
+        "params" : [
+          {
+            "type" : "CGFloat",
+            "sel" : "decodeFrames",
+            "name" : "minDuration"
+          }
+        ]
+      },
+      "D8FC69E029360A814358BBE62EDC43764" : {
+        "returnType" : "kxMovieError",
+        "invokes" : [
+          {
+            "methodId" : "D22C67A2559816EF98BEB3DCF9C04A8F2",
+            "classId" : "DBCB1CACB0E038BF8F6514D7E09B389F6"
+          }
+        ],
+        "static" : false,
+        "id" : "D8FC69E029360A814358BBE62EDC43764",
+        "type" : "method",
+        "params" : [
+          {
+            "name" : "",
+            "type" : "",
+            "sel" : "openAudioStream"
+          }
+        ],
+        "isSwift" : false,
+        "accessControl" : "private",
+        "classId" : "DBCB1CACB0E038BF8F6514D7E09B389F6"
+      },
+      "D483D0BFAA4BF22696469773B01183251" : {
+        "returnType" : "void",
+        "params" : [
+          {
+            "type" : "",
+            "sel" : "dealloc",
+            "name" : ""
+          }
+        ],
+        "id" : "D483D0BFAA4BF22696469773B01183251",
+        "accessControl" : "private",
+        "classId" : "DBCB1CACB0E038BF8F6514D7E09B389F6",
+        "isSwift" : false,
+        "static" : false,
+        "type" : "method",
+        "invokes" : [
+          {
+            "classId" : "DBCB1CACB0E038BF8F6514D7E09B389F6",
+            "methodId" : "D5E93F9E8903678C5E549B95D9BA2EF63"
+          }
+        ]
+      },
+      "D9D0D4CAF4D31317EF5C00CAFDBCA6E70" : {
+        "id" : "D9D0D4CAF4D31317EF5C00CAFDBCA6E70",
+        "params" : [
+          {
+            "sel" : "setupVideoFrameFormat",
+            "name" : "format",
+            "type" : "KxVideoFrameFormat"
+          }
+        ],
+        "invokes" : [
+
+        ],
+        "returnType" : "BOOL",
+        "isSwift" : false,
+        "static" : false,
+        "type" : "method",
+        "classId" : "DBCB1CACB0E038BF8F6514D7E09B389F6",
+        "accessControl" : "public"
+      },
+      "D6AEC00A13001D41E98D3BD29853845C5" : {
+        "returnType" : "CGFloat",
+        "accessControl" : "private",
+        "isSwift" : false,
+        "classId" : "DBCB1CACB0E038BF8F6514D7E09B389F6",
+        "params" : [
+          {
+            "name" : "",
+            "type" : "",
+            "sel" : "sampleRate"
+          }
+        ],
+        "id" : "D6AEC00A13001D41E98D3BD29853845C5",
+        "invokes" : [
+
+        ],
+        "static" : false,
+        "type" : "method"
+      },
+      "DAB2D95DB894840300CA7829D4FED1F32" : {
+        "accessControl" : "private",
+        "params" : [
+          {
+            "sel" : "handleAudioFrame",
+            "type" : "",
+            "name" : ""
+          }
+        ],
+        "invokes" : [
+          {
+            "formatedName" : "[KxAudioManager audioManager]"
+          },
+          {
+            "formatedName" : "[NSMutableData dataWithLength:]"
+          },
+          {
+            "formatedName" : "[[KxAudioFrame alloc] init]"
+          }
+        ],
+        "returnType" : "KxAudioFrame *",
+        "type" : "method",
+        "static" : false,
+        "classId" : "DBCB1CACB0E038BF8F6514D7E09B389F6",
+        "isSwift" : false,
+        "id" : "DAB2D95DB894840300CA7829D4FED1F32"
+      },
+      "DE27075097EF1ABBBAE44F5F74BD720DE" : {
+        "static" : false,
+        "isSwift" : false,
+        "id" : "DE27075097EF1ABBBAE44F5F74BD720DE",
+        "type" : "method",
+        "classId" : "DBCB1CACB0E038BF8F6514D7E09B389F6",
+        "params" : [
+          {
+            "name" : "",
+            "type" : "",
+            "sel" : "closeVideoStream"
+          }
+        ],
+        "accessControl" : "private",
+        "invokes" : [
+          {
+            "methodId" : "DCBE90251B267FB9E4005738236903F89",
+            "classId" : "DBCB1CACB0E038BF8F6514D7E09B389F6"
+          }
+        ],
+        "returnType" : "void"
+      },
+      "D0CD68E13D04ABA0AFD945402E278CCA9" : {
+        "static" : false,
+        "params" : [
+          {
+            "name" : "",
+            "type" : "",
+            "sel" : "selectedAudioStream"
+          }
+        ],
+        "invokes" : [
+          {
+            "formatedName" : "[NSNumber numberWithInteger:]"
+          },
+          {
+            "formatedName" : "[_audioStreams indexOfObject:]"
+          }
+        ],
+        "type" : "method",
+        "id" : "D0CD68E13D04ABA0AFD945402E278CCA9",
+        "classId" : "DBCB1CACB0E038BF8F6514D7E09B389F6",
+        "accessControl" : "private",
+        "returnType" : "NSInteger",
+        "isSwift" : false
+      },
+      "D0356A5E0086E60196681B7819269C497" : {
+        "params" : [
+          {
+            "name" : "seconds",
+            "sel" : "setPosition",
+            "type" : "CGFloat"
+          }
+        ],
+        "static" : false,
+        "type" : "method",
+        "isSwift" : false,
+        "classId" : "DBCB1CACB0E038BF8F6514D7E09B389F6",
+        "returnType" : "void",
+        "id" : "D0356A5E0086E60196681B7819269C497",
+        "accessControl" : "private",
+        "invokes" : [
+
+        ]
+      },
+      "D21766096EB7119965FAB0E6737885CD6" : {
+        "accessControl" : "private",
+        "type" : "method",
+        "isSwift" : false,
+        "params" : [
+          {
+            "type" : "",
+            "sel" : "closeSubtitleStream",
+            "name" : ""
+          }
+        ],
+        "classId" : "DBCB1CACB0E038BF8F6514D7E09B389F6",
+        "returnType" : "void",
+        "static" : false,
+        "id" : "D21766096EB7119965FAB0E6737885CD6",
+        "invokes" : [
+
+        ]
+      },
+      "D95EACD44F1BFAA5028D7EA02B4233B92" : {
+        "params" : [
+          {
+            "name" : "",
+            "sel" : "position",
+            "type" : ""
+          }
+        ],
+        "classId" : "DBCB1CACB0E038BF8F6514D7E09B389F6",
+        "invokes" : [
+
+        ],
+        "returnType" : "CGFloat",
+        "isSwift" : false,
+        "type" : "method",
+        "static" : false,
+        "accessControl" : "private",
+        "id" : "D95EACD44F1BFAA5028D7EA02B4233B92"
+      },
+      "DCBE90251B267FB9E4005738236903F89" : {
+        "params" : [
+          {
+            "sel" : "closeScaler",
+            "name" : "",
+            "type" : ""
+          }
+        ],
+        "isSwift" : false,
+        "invokes" : [
+
+        ],
+        "accessControl" : "private",
+        "type" : "method",
+        "classId" : "DBCB1CACB0E038BF8F6514D7E09B389F6",
+        "static" : false,
+        "id" : "DCBE90251B267FB9E4005738236903F89",
+        "returnType" : "void"
+      },
+      "DD1E9864A173E91C3B472F4F19B53E84B" : {
+        "classId" : "DBCB1CACB0E038BF8F6514D7E09B389F6",
+        "returnType" : "KxVideoFrame *",
+        "type" : "method",
+        "id" : "DD1E9864A173E91C3B472F4F19B53E84B",
+        "isSwift" : false,
+        "invokes" : [
+          {
+            "formatedName" : "[[KxVideoFrameYUV alloc] init]"
+          },
+          {
+            "methodId" : "D5D816F5C4DD40D33652AA417DA2427AB",
+            "classId" : "DBCB1CACB0E038BF8F6514D7E09B389F6"
+          },
+          {
+            "formatedName" : "[NSData dataWithBytes: length:]"
+          }
+        ],
+        "static" : false,
+        "params" : [
+          {
+            "type" : "",
+            "name" : "",
+            "sel" : "handleVideoFrame"
+          }
+        ],
+        "accessControl" : "private"
+      },
+      "D6BAD5E82E53B3CAD6BF4C470C26F148A" : {
+        "returnType" : "NSUInteger",
+        "classId" : "DBCB1CACB0E038BF8F6514D7E09B389F6",
+        "static" : false,
+        "accessControl" : "private",
+        "invokes" : [
+          {
+            "formatedName" : "[_subtitleStreams count]"
+          }
+        ],
+        "isSwift" : false,
+        "id" : "D6BAD5E82E53B3CAD6BF4C470C26F148A",
+        "params" : [
+          {
+            "sel" : "subtitleStreamsCount",
+            "type" : "",
+            "name" : ""
+          }
+        ],
+        "type" : "method"
+      },
+      "D41802AEF589FAEECD712A94A1B1BAA70" : {
+        "classId" : "DBCB1CACB0E038BF8F6514D7E09B389F6",
+        "accessControl" : "private",
+        "isSwift" : false,
+        "type" : "method",
+        "static" : false,
+        "invokes" : [
+          {
+            "classId" : "DBCB1CACB0E038BF8F6514D7E09B389F6",
+            "methodId" : "D21766096EB7119965FAB0E6737885CD6"
+          },
+          {
+            "methodId" : "DB24598C7B4E392EFC8A2684E65F2BE61",
+            "classId" : "DBCB1CACB0E038BF8F6514D7E09B389F6"
+          }
+        ],
+        "returnType" : "void",
+        "id" : "D41802AEF589FAEECD712A94A1B1BAA70",
+        "params" : [
+          {
+            "sel" : "setSelectedSubtitleStream",
+            "type" : "NSInteger",
+            "name" : "selected"
+          }
+        ]
+      },
+      "D46E973E07B3485C3172112EFCF54BC25" : {
+        "id" : "D46E973E07B3485C3172112EFCF54BC25",
+        "type" : "method",
+        "classId" : "DBCB1CACB0E038BF8F6514D7E09B389F6",
+        "params" : [
+          {
+            "type" : "AVSubtitle *",
+            "sel" : "handleSubtitle",
+            "name" : "pSubtitle"
+          }
+        ],
+        "static" : false,
+        "invokes" : [
+          {
+            "formatedName" : "[NSMutableString string]"
+          },
+          {
+            "formatedName" : "[NSString stringWithUTF8String:]"
+          },
+          {
+            "formatedName" : "[ms appendString:]"
+          },
+          {
+            "formatedName" : "[KxMovieSubtitleASSParser parseDialogue: numFields:]"
+          },
+          {
+            "formatedName" : "[KxMovieSubtitleASSParser removeCommandsFromEventText:]"
+          },
+          {
+            "formatedName" : "[[KxSubtitleFrame alloc] init]"
+          },
+          {
+            "formatedName" : "[ms copy]"
+          }
+        ],
+        "accessControl" : "private",
+        "returnType" : "KxSubtitleFrame *",
+        "isSwift" : false
+      },
+      "DCECBC661C50F60906BB198F2403C46A0" : {
+        "id" : "DCECBC661C50F60906BB198F2403C46A0",
+        "isSwift" : false,
+        "classId" : "DBCB1CACB0E038BF8F6514D7E09B389F6",
+        "params" : [
+          {
+            "type" : "NSInteger",
+            "sel" : "setSelectedAudioStream",
+            "name" : "selectedAudioStream"
+          }
+        ],
+        "type" : "method",
+        "static" : false,
+        "invokes" : [
+          {
+            "methodId" : "D91BF869675A0EAB61CB3AA97E10CB06E",
+            "classId" : "DBCB1CACB0E038BF8F6514D7E09B389F6"
+          },
+          {
+            "methodId" : "D22C67A2559816EF98BEB3DCF9C04A8F2",
+            "classId" : "DBCB1CACB0E038BF8F6514D7E09B389F6"
+          }
+        ],
+        "accessControl" : "private",
+        "returnType" : "void"
+      },
+      "D288065A51F65206E8024859C8C81F566" : {
+        "isSwift" : false,
+        "classId" : "DBCB1CACB0E038BF8F6514D7E09B389F6",
+        "returnType" : "NSString *",
+        "static" : false,
+        "id" : "D288065A51F65206E8024859C8C81F566",
+        "accessControl" : "private",
+        "params" : [
+          {
+            "sel" : "videoStreamFormatName",
+            "name" : "",
+            "type" : ""
+          }
+        ],
+        "invokes" : [
+          {
+            "formatedName" : "[NSString stringWithCString: encoding:]"
+          }
+        ],
+        "type" : "method"
+      },
+      "D22C67A2559816EF98BEB3DCF9C04A8F2" : {
+        "classId" : "DBCB1CACB0E038BF8F6514D7E09B389F6",
+        "invokes" : [
+          {
+            "formatedName" : "[KxAudioManager audioManager]"
+          }
+        ],
+        "returnType" : "kxMovieError",
+        "type" : "method",
+        "static" : false,
+        "id" : "D22C67A2559816EF98BEB3DCF9C04A8F2",
+        "params" : [
+          {
+            "sel" : "openAudioStream",
+            "name" : "audioStream",
+            "type" : "NSInteger"
+          }
+        ],
+        "isSwift" : false,
+        "accessControl" : "private"
+      },
+      "D7725DFCD1663DA4A718EDF7311B70403" : {
+        "classId" : "DBCB1CACB0E038BF8F6514D7E09B389F6",
+        "accessControl" : "private",
+        "returnType" : "BOOL",
+        "id" : "D7725DFCD1663DA4A718EDF7311B70403",
+        "params" : [
+          {
+            "name" : "",
+            "sel" : "validVideo",
+            "type" : ""
+          }
+        ],
+        "isSwift" : false,
+        "static" : false,
+        "type" : "method",
+        "invokes" : [
+
+        ]
+      },
+      "D772E2D3B13DC146ED5F9D2D59839A7FD" : {
+        "accessControl" : "private",
+        "type" : "method",
+        "params" : [
+          {
+            "type" : "",
+            "name" : "",
+            "sel" : "selectedSubtitleStream"
+          }
+        ],
+        "id" : "D772E2D3B13DC146ED5F9D2D59839A7FD",
+        "isSwift" : false,
+        "invokes" : [
+          {
+            "formatedName" : "[_subtitleStreams indexOfObject:]"
+          }
+        ],
+        "returnType" : "NSInteger",
+        "static" : false,
+        "classId" : "DBCB1CACB0E038BF8F6514D7E09B389F6"
+      },
+      "DAB7165ACA9C542AD75E0EE55CB45E927" : {
+        "returnType" : "kxMovieError",
+        "static" : false,
+        "accessControl" : "private",
+        "invokes" : [
+          {
+            "methodId" : "D251EEAB36DBBBC32845B419F834C536B",
+            "classId" : "DBCB1CACB0E038BF8F6514D7E09B389F6"
+          }
+        ],
+        "classId" : "DBCB1CACB0E038BF8F6514D7E09B389F6",
+        "id" : "DAB7165ACA9C542AD75E0EE55CB45E927",
+        "isSwift" : false,
+        "type" : "method",
+        "params" : [
+          {
+            "name" : "",
+            "sel" : "openVideoStream",
+            "type" : ""
+          }
+        ]
+      },
+      "D5D816F5C4DD40D33652AA417DA2427AB" : {
+        "returnType" : "BOOL",
+        "id" : "D5D816F5C4DD40D33652AA417DA2427AB",
+        "invokes" : [
+          {
+            "methodId" : "DCBE90251B267FB9E4005738236903F89",
+            "classId" : "DBCB1CACB0E038BF8F6514D7E09B389F6"
+          }
+        ],
+        "classId" : "DBCB1CACB0E038BF8F6514D7E09B389F6",
+        "type" : "method",
+        "params" : [
+          {
+            "type" : "",
+            "sel" : "setupScaler",
+            "name" : ""
+          }
+        ],
+        "accessControl" : "private",
+        "static" : false,
+        "isSwift" : false
+      },
+      "DCF13318CF343CCF5F0549C51969AC58C" : {
+        "classId" : "DBCB1CACB0E038BF8F6514D7E09B389F6",
+        "type" : "method",
+        "isSwift" : false,
+        "static" : false,
+        "accessControl" : "private",
+        "id" : "DCF13318CF343CCF5F0549C51969AC58C",
+        "params" : [
+          {
+            "type" : "",
+            "sel" : "interruptDecoder",
+            "name" : ""
+          }
+        ],
+        "invokes" : [
+
+        ],
+        "returnType" : "BOOL"
+      },
+      "D144D8B99E4BEF71EA3EEDCA8C0436E26" : {
+        "classId" : "DBCB1CACB0E038BF8F6514D7E09B389F6",
+        "id" : "D144D8B99E4BEF71EA3EEDCA8C0436E26",
+        "static" : false,
+        "returnType" : "NSDictionary *",
+        "accessControl" : "private",
+        "params" : [
+          {
+            "sel" : "info",
+            "name" : "",
+            "type" : ""
+          }
+        ],
+        "isSwift" : false,
+        "type" : "method",
+        "invokes" : [
+          {
+            "formatedName" : "[NSMutableDictionary dictionary]"
+          },
+          {
+            "formatedName" : "[md setValue: forKey:]"
+          },
+          {
+            "formatedName" : "[NSMutableArray array]"
+          },
+          {
+            "formatedName" : "[NSString stringWithCString: encoding:]"
+          },
+          {
+            "formatedName" : "[s hasPrefix: Video:]"
+          },
+          {
+            "formatedName" : "[s substringFromIndex: Video:]"
+          },
+          {
+            "formatedName" : "[ma addObject:]"
+          },
+          {
+            "formatedName" : "[NSMutableString string]"
+          },
+          {
+            "formatedName" : "[ms appendFormat:]"
+          },
+          {
+            "formatedName" : "[s hasPrefix: Audio:]"
+          },
+          {
+            "formatedName" : "[s substringFromIndex: Audio:]"
+          },
+          {
+            "formatedName" : "[ms appendString:]"
+          },
+          {
+            "formatedName" : "[s hasPrefix: Subtitle:]"
+          },
+          {
+            "formatedName" : "[s substringFromIndex: Subtitle:]"
+          },
+          {
+            "formatedName" : "[md copy]"
+          },
+          {
+            "formatedName" : "[NSNumber numberWithInt:]"
+          }
+        ]
+      },
+      "D9DF09A9A3C21787A886D2016BF7F1357" : {
+        "type" : "method",
+        "static" : true,
+        "returnType" : "id",
+        "accessControl" : "public",
+        "isSwift" : false,
+        "params" : [
+          {
+            "type" : "NSString *",
+            "name" : "path",
+            "sel" : "movieDecoderWithContentPath"
+          },
+          {
+            "type" : "NSError * *",
+            "sel" : "error",
+            "name" : "perror"
+          }
+        ],
+        "invokes" : [
+          {
+            "formatedName" : "[[KxMovieDecoder alloc] init]"
+          },
+          {
+            "methodId" : "D2DF3817AC7854C3C704D606A783A50A9",
+            "classId" : "DBCB1CACB0E038BF8F6514D7E09B389F6"
+          }
+        ],
+        "classId" : "DBCB1CACB0E038BF8F6514D7E09B389F6",
+        "id" : "D9DF09A9A3C21787A886D2016BF7F1357"
+      },
+      "D77F231468B5211E206893CC17941C184" : {
+        "static" : false,
+        "classId" : "DBCB1CACB0E038BF8F6514D7E09B389F6",
+        "isSwift" : false,
+        "params" : [
+          {
+            "sel" : "audioStreamsCount",
+            "name" : "",
+            "type" : ""
+          }
+        ],
+        "returnType" : "NSUInteger",
+        "id" : "D77F231468B5211E206893CC17941C184",
+        "type" : "method",
+        "accessControl" : "private",
+        "invokes" : [
+          {
+            "formatedName" : "[_audioStreams count]"
+          }
+        ]
+      },
+      "D91BF869675A0EAB61CB3AA97E10CB06E" : {
+        "classId" : "DBCB1CACB0E038BF8F6514D7E09B389F6",
+        "isSwift" : false,
+        "static" : false,
+        "returnType" : "void",
+        "invokes" : [
+
+        ],
+        "accessControl" : "private",
+        "params" : [
+          {
+            "name" : "",
+            "type" : "",
+            "sel" : "closeAudioStream"
+          }
+        ],
+        "type" : "method",
+        "id" : "D91BF869675A0EAB61CB3AA97E10CB06E"
+      },
+      "DEDA1D21CF440ECFA1E856824E6437CFB" : {
+        "isSwift" : false,
+        "type" : "method",
+        "accessControl" : "private",
+        "params" : [
+          {
+            "type" : "",
+            "sel" : "validAudio",
+            "name" : ""
+          }
+        ],
+        "static" : false,
+        "invokes" : [
+
+        ],
+        "id" : "DEDA1D21CF440ECFA1E856824E6437CFB",
+        "classId" : "DBCB1CACB0E038BF8F6514D7E09B389F6",
+        "returnType" : "BOOL"
+      },
+      "D5E93F9E8903678C5E549B95D9BA2EF63" : {
+        "isSwift" : false,
+        "static" : false,
+        "classId" : "DBCB1CACB0E038BF8F6514D7E09B389F6",
+        "params" : [
+          {
+            "name" : "",
+            "type" : "",
+            "sel" : "closeFile"
+          }
+        ],
+        "id" : "D5E93F9E8903678C5E549B95D9BA2EF63",
+        "type" : "method",
+        "accessControl" : "public",
+        "returnType" : "void",
+        "invokes" : [
+          {
+            "classId" : "DBCB1CACB0E038BF8F6514D7E09B389F6",
+            "methodId" : "D91BF869675A0EAB61CB3AA97E10CB06E"
+          },
+          {
+            "methodId" : "DE27075097EF1ABBBAE44F5F74BD720DE",
+            "classId" : "DBCB1CACB0E038BF8F6514D7E09B389F6"
+          },
+          {
+            "methodId" : "D21766096EB7119965FAB0E6737885CD6",
+            "classId" : "DBCB1CACB0E038BF8F6514D7E09B389F6"
+          }
+        ]
+      }
+    },
+    "super" : "NSObject",
+    "isSwift" : false,
+    "accessControl" : "public",
+    "name" : "KxMovieDecoder",
+    "protocols" : [
+
+    ],
+    "id" : "DBCB1CACB0E038BF8F6514D7E09B389F6",
+    "type" : "class"
+  },
+  {
+    "isSwift" : false,
+    "methods" : {
+      "DED38C44C8A26E4199C5C312AFF6202BB" : {
+        "invokes" : [
+          {
+            "formatedName" : "[dialogue hasPrefix: Dialogue:]"
+          },
+          {
+            "formatedName" : "[NSMutableArray array]"
+          },
+          {
+            "formatedName" : "[dialogue rangeOfString: options: range:]"
+          },
+          {
+            "formatedName" : "[dialogue substringWithRange:]"
+          },
+          {
+            "formatedName" : "[p stringByReplacingOccurrencesOfString: withString:]"
+          },
+          {
+            "formatedName" : "[ma addObject:]"
+          }
+        ],
+        "id" : "DED38C44C8A26E4199C5C312AFF6202BB",
+        "classId" : "D954A41A9C3CB63F1F64E6C2E56993607",
+        "static" : true,
+        "returnType" : "NSArray *",
+        "params" : [
+          {
+            "type" : "NSString *",
+            "name" : "dialogue",
+            "sel" : "parseDialogue"
+          },
+          {
+            "type" : "NSUInteger",
+            "sel" : "numFields",
+            "name" : "numFields"
+          }
+        ],
+        "isSwift" : false,
+        "type" : "method",
+        "accessControl" : "public"
+      },
+      "D59E1A5F95A1257F623DC058109887842" : {
+        "classId" : "D954A41A9C3CB63F1F64E6C2E56993607",
+        "accessControl" : "public",
+        "params" : [
+          {
+            "type" : "NSString *",
+            "name" : "text",
+            "sel" : "removeCommandsFromEventText"
+          }
+        ],
+        "static" : true,
+        "id" : "D59E1A5F95A1257F623DC058109887842",
+        "returnType" : "NSString *",
+        "isSwift" : false,
+        "invokes" : [
+          {
+            "formatedName" : "[NSMutableString string]"
+          },
+          {
+            "formatedName" : "[NSScanner scannerWithString:]"
+          },
+          {
+            "formatedName" : "[scanner scanUpToString: intoString:]"
+          },
+          {
+            "formatedName" : "[ms appendString:]"
+          },
+          {
+            "formatedName" : "[scanner scanString: intoString:]"
+          }
+        ],
+        "type" : "method"
+      },
+      "DCC2106EDBC23E2BF6C9033D6C43C6EED" : {
+        "invokes" : [
+          {
+            "formatedName" : "[events rangeOfString:]"
+          },
+          {
+            "formatedName" : "[events rangeOfString: Format: options: range:]"
+          },
+          {
+            "formatedName" : "[events rangeOfCharacterFromSet: options: range:]"
+          },
+          {
+            "formatedName" : "[events substringWithRange:]"
+          },
+          {
+            "formatedName" : "[format componentsSeparatedByString:]"
+          },
+          {
+            "formatedName" : "[NSCharacterSet whitespaceCharacterSet]"
+          },
+          {
+            "formatedName" : "[NSMutableArray array]"
+          },
+          {
+            "formatedName" : "[ma addObject:]"
+          },
+          {
+            "formatedName" : "[NSCharacterSet newlineCharacterSet]"
+          },
+          {
+            "formatedName" : "[s stringByTrimmingCharactersInSet:]"
+          }
+        ],
+        "type" : "method",
+        "isSwift" : false,
+        "returnType" : "NSArray *",
+        "classId" : "D954A41A9C3CB63F1F64E6C2E56993607",
+        "accessControl" : "public",
+        "static" : true,
+        "id" : "DCC2106EDBC23E2BF6C9033D6C43C6EED",
+        "params" : [
+          {
+            "sel" : "parseEvents",
+            "name" : "events",
+            "type" : "NSString *"
+          }
+        ]
+      }
+    },
+    "protocols" : [
+
+    ],
+    "type" : "class",
+    "accessControl" : "public",
+    "id" : "D954A41A9C3CB63F1F64E6C2E56993607",
+    "name" : "KxMovieSubtitleASSParser",
+    "super" : "NSObject"
+  },
+  {
+    "id" : "D5AE75B529D306917E35329F5F348D0D3",
+    "methods" : {
+
+    },
+    "accessControl" : "public",
+    "type" : "class",
+    "isSwift" : false,
+    "name" : "KxMovieFrame",
+    "protocols" : [
+
+    ],
+    "super" : "NSObject"
+  },
+  {
+    "isSwift" : false,
+    "id" : "D61E8DBD96CE8BFE062B60BA5DDFB8EC1",
+    "type" : "class",
+    "accessControl" : "public",
+    "name" : "KxMovieGLView",
+    "super" : "UIView",
+    "protocols" : [
+
+    ],
+    "methods" : {
+      "D802C75D71BDF6AFC5EB532535FDFF102" : {
+        "classId" : "D61E8DBD96CE8BFE062B60BA5DDFB8EC1",
+        "id" : "D802C75D71BDF6AFC5EB532535FDFF102",
+        "returnType" : "id",
+        "accessControl" : "public",
+        "params" : [
+          {
+            "sel" : "initWithFrame",
+            "name" : "frame",
+            "type" : "CGRect"
+          },
+          {
+            "sel" : "decoder",
+            "name" : "decoder",
+            "type" : "KxMovieDecoder *"
+          }
+        ],
+        "invokes" : [
+          {
+            "formatedName" : "[super initWithFrame:]"
+          },
+          {
+            "formatedName" : "[decoder setupVideoFrameFormat:]"
+          },
+          {
+            "formatedName" : "[[KxMovieGLRenderer_YUV alloc] init]"
+          },
+          {
+            "formatedName" : "[NSDictionary dictionaryWithObjectsAndKeys:]"
+          },
+          {
+            "formatedName" : "[[EAGLContext alloc] initWithAPI:]"
+          },
+          {
+            "formatedName" : "[EAGLContext setCurrentContext:]"
+          },
+          {
+            "formatedName" : "[_context renderbufferStorage: fromDrawable:]"
+          },
+          {
+            "methodId" : "D29AA3E2847F51FA9C3CC41FF43F0C2B0",
+            "classId" : "D61E8DBD96CE8BFE062B60BA5DDFB8EC1"
+          },
+          {
+            "formatedName" : "[NSNumber numberWithBool:]"
+          }
+        ],
+        "isSwift" : false,
+        "static" : false,
+        "type" : "method"
+      },
+      "D75FEEFFE91998C0A25FF1D19D251CD1C" : {
+        "params" : [
+          {
+            "sel" : "updateVertices",
+            "type" : "",
+            "name" : ""
+          }
+        ],
+        "returnType" : "void",
+        "isSwift" : false,
+        "id" : "D75FEEFFE91998C0A25FF1D19D251CD1C",
+        "invokes" : [
+
+        ],
+        "type" : "method",
+        "accessControl" : "private",
+        "static" : false,
+        "classId" : "D61E8DBD96CE8BFE062B60BA5DDFB8EC1"
+      },
+      "DA373ED9D98807D51740AF2FC20B403DE" : {
+        "static" : true,
+        "isSwift" : false,
+        "type" : "method",
+        "classId" : "D61E8DBD96CE8BFE062B60BA5DDFB8EC1",
+        "invokes" : [
+          {
+            "formatedName" : "[CAEAGLLayer class]"
+          }
+        ],
+        "accessControl" : "private",
+        "returnType" : "Class",
+        "id" : "DA373ED9D98807D51740AF2FC20B403DE",
+        "params" : [
+          {
+            "sel" : "layerClass",
+            "name" : "",
+            "type" : ""
+          }
+        ]
+      },
+      "D2B75F8952FE95386B00BC3498850ADF8" : {
+        "returnType" : "void",
+        "params" : [
+          {
+            "type" : "UIViewContentMode",
+            "name" : "contentMode",
+            "sel" : "setContentMode"
+          }
+        ],
+        "accessControl" : "private",
+        "isSwift" : false,
+        "invokes" : [
+          {
+            "classId" : "D61E8DBD96CE8BFE062B60BA5DDFB8EC1",
+            "methodId" : "D2B75F8952FE95386B00BC3498850ADF8"
+          },
+          {
+            "classId" : "D61E8DBD96CE8BFE062B60BA5DDFB8EC1",
+            "methodId" : "D75FEEFFE91998C0A25FF1D19D251CD1C"
+          },
+          {
+            "methodId" : "D75266F2C0DCC7FA03058F1474D18A443",
+            "classId" : "D61E8DBD96CE8BFE062B60BA5DDFB8EC1"
+          }
+        ],
+        "type" : "method",
+        "static" : false,
+        "id" : "D2B75F8952FE95386B00BC3498850ADF8",
+        "classId" : "D61E8DBD96CE8BFE062B60BA5DDFB8EC1"
+      },
+      "D29AA3E2847F51FA9C3CC41FF43F0C2B0" : {
+        "id" : "D29AA3E2847F51FA9C3CC41FF43F0C2B0",
+        "classId" : "D61E8DBD96CE8BFE062B60BA5DDFB8EC1",
+        "static" : false,
+        "returnType" : "BOOL",
+        "type" : "method",
+        "accessControl" : "private",
+        "invokes" : [
+          {
+            "formatedName" : "[_renderer resolveUniforms:]"
+          }
+        ],
+        "params" : [
+          {
+            "type" : "",
+            "name" : "",
+            "sel" : "loadShaders"
+          }
+        ],
+        "isSwift" : false
+      },
+      "D11C7C52B8D826D7B0E45A0BC5145C313" : {
+        "classId" : "D61E8DBD96CE8BFE062B60BA5DDFB8EC1",
+        "type" : "method",
+        "id" : "D11C7C52B8D826D7B0E45A0BC5145C313",
+        "isSwift" : false,
+        "params" : [
+          {
+            "type" : "",
+            "name" : "",
+            "sel" : "layoutSubviews"
+          }
+        ],
+        "invokes" : [
+          {
+            "formatedName" : "[_context renderbufferStorage: fromDrawable:]"
+          },
+          {
+            "methodId" : "D75FEEFFE91998C0A25FF1D19D251CD1C",
+            "classId" : "D61E8DBD96CE8BFE062B60BA5DDFB8EC1"
+          },
+          {
+            "classId" : "D61E8DBD96CE8BFE062B60BA5DDFB8EC1",
+            "methodId" : "D75266F2C0DCC7FA03058F1474D18A443"
+          }
+        ],
+        "static" : false,
+        "accessControl" : "private",
+        "returnType" : "void"
+      },
+      "D4F54D94407FA19D03948F4155D2DEFB0" : {
+        "accessControl" : "private",
+        "static" : false,
+        "id" : "D4F54D94407FA19D03948F4155D2DEFB0",
+        "returnType" : "void",
+        "params" : [
+          {
+            "type" : "",
+            "name" : "",
+            "sel" : "dealloc"
+          }
+        ],
+        "invokes" : [
+          {
+            "formatedName" : "[EAGLContext currentContext]"
+          },
+          {
+            "formatedName" : "[EAGLContext setCurrentContext:]"
+          }
+        ],
+        "type" : "method",
+        "classId" : "D61E8DBD96CE8BFE062B60BA5DDFB8EC1",
+        "isSwift" : false
+      },
+      "D75266F2C0DCC7FA03058F1474D18A443" : {
+        "classId" : "D61E8DBD96CE8BFE062B60BA5DDFB8EC1",
+        "static" : false,
+        "type" : "method",
+        "accessControl" : "public",
+        "id" : "D75266F2C0DCC7FA03058F1474D18A443",
+        "params" : [
+          {
+            "name" : "frame",
+            "sel" : "render",
+            "type" : "KxVideoFrame *"
+          }
+        ],
+        "invokes" : [
+          {
+            "formatedName" : "[EAGLContext setCurrentContext:]"
+          },
+          {
+            "formatedName" : "[_renderer setFrame:]"
+          },
+          {
+            "formatedName" : "[_renderer prepareRender]"
+          },
+          {
+            "formatedName" : "[_context presentRenderbuffer:]"
+          }
+        ],
+        "returnType" : "void",
+        "isSwift" : false
+      }
+    }
+  },
+  {
+    "type" : "class",
+    "name" : "KxAudioManagerImpl",
+    "isSwift" : false,
+    "methods" : {
+      "D3B52F41E9DAEB7747FB85E705BB09A61" : {
+        "classId" : "D04A74A3F67FA7D99AF1AC71A503DAE33",
+        "type" : "method",
+        "accessControl" : "private",
+        "returnType" : "BOOL",
+        "invokes" : [
+          {
+            "methodId" : "D3DD53CC720639891F59F0AAE2CBAA415",
+            "classId" : "D04A74A3F67FA7D99AF1AC71A503DAE33"
+          },
+          {
+            "classId" : "D04A74A3F67FA7D99AF1AC71A503DAE33",
+            "methodId" : "D63AE78030B607C0D85D8EF3065410F5D"
+          }
+        ],
+        "id" : "D3B52F41E9DAEB7747FB85E705BB09A61",
+        "static" : false,
+        "isSwift" : false,
+        "params" : [
+          {
+            "type" : "",
+            "sel" : "activateAudioSession",
+            "name" : ""
+          }
+        ]
+      },
+      "D3DD53CC720639891F59F0AAE2CBAA415" : {
+        "accessControl" : "private",
+        "classId" : "D04A74A3F67FA7D99AF1AC71A503DAE33",
+        "returnType" : "BOOL",
+        "id" : "D3DD53CC720639891F59F0AAE2CBAA415",
+        "static" : false,
+        "params" : [
+          {
+            "name" : "",
+            "type" : "",
+            "sel" : "checkAudioRoute"
+          }
+        ],
+        "invokes" : [
+
+        ],
+        "isSwift" : false,
+        "type" : "method"
+      },
+      "DBB3974D00BCFA93A61C84279886BF5CA" : {
+        "type" : "method",
+        "accessControl" : "private",
+        "returnType" : "BOOL",
+        "classId" : "D04A74A3F67FA7D99AF1AC71A503DAE33",
+        "params" : [
+          {
+            "name" : "",
+            "type" : "",
+            "sel" : "checkSessionProperties"
+          }
+        ],
+        "invokes" : [
+          {
+            "classId" : "D04A74A3F67FA7D99AF1AC71A503DAE33",
+            "methodId" : "D3DD53CC720639891F59F0AAE2CBAA415"
+          }
+        ],
+        "isSwift" : false,
+        "id" : "DBB3974D00BCFA93A61C84279886BF5CA",
+        "static" : false
+      },
+      "D6B7B6D9670D381A869E5A45178E3E77A" : {
+        "returnType" : "id",
+        "accessControl" : "private",
+        "params" : [
+          {
+            "name" : "",
+            "type" : "",
+            "sel" : "init"
+          }
+        ],
+        "type" : "method",
+        "id" : "D6B7B6D9670D381A869E5A45178E3E77A",
+        "classId" : "D04A74A3F67FA7D99AF1AC71A503DAE33",
+        "isSwift" : false,
+        "invokes" : [
+          {
+            "classId" : "D04A74A3F67FA7D99AF1AC71A503DAE33",
+            "methodId" : "D6B7B6D9670D381A869E5A45178E3E77A"
+          }
+        ],
+        "static" : false
+      },
+      "DD8FB7CB4A15BD938638EFB0292182E4A" : {
+        "id" : "DD8FB7CB4A15BD938638EFB0292182E4A",
+        "returnType" : "void",
+        "type" : "method",
+        "classId" : "D04A74A3F67FA7D99AF1AC71A503DAE33",
+        "accessControl" : "private",
+        "params" : [
+          {
+            "name" : "",
+            "type" : "",
+            "sel" : "dealloc"
+          }
+        ],
+        "isSwift" : false,
+        "static" : false,
+        "invokes" : [
+
+        ]
+      },
+      "D63AE78030B607C0D85D8EF3065410F5D" : {
+        "static" : false,
+        "isSwift" : false,
+        "type" : "method",
+        "params" : [
+          {
+            "name" : "",
+            "sel" : "setupAudio",
+            "type" : ""
+          }
+        ],
+        "invokes" : [
+          {
+            "classId" : "D04A74A3F67FA7D99AF1AC71A503DAE33",
+            "methodId" : "DBB3974D00BCFA93A61C84279886BF5CA"
+          }
+        ],
+        "classId" : "D04A74A3F67FA7D99AF1AC71A503DAE33",
+        "returnType" : "BOOL",
+        "id" : "D63AE78030B607C0D85D8EF3065410F5D",
+        "accessControl" : "private"
+      },
+      "DA1E6679638B06127CE342CD4A4B5D04A" : {
+        "invokes" : [
+          {
+            "classId" : "D04A74A3F67FA7D99AF1AC71A503DAE33",
+            "methodId" : "D3B52F41E9DAEB7747FB85E705BB09A61"
+          }
+        ],
+        "returnType" : "BOOL",
+        "isSwift" : false,
+        "classId" : "D04A74A3F67FA7D99AF1AC71A503DAE33",
+        "type" : "method",
+        "params" : [
+          {
+            "type" : "",
+            "name" : "",
+            "sel" : "play"
+          }
+        ],
+        "static" : false,
+        "accessControl" : "private",
+        "id" : "DA1E6679638B06127CE342CD4A4B5D04A"
+      },
+      "D3233E6FE22830AEA76FCC8908233204F" : {
+        "classId" : "D04A74A3F67FA7D99AF1AC71A503DAE33",
+        "invokes" : [
+          {
+            "classId" : "D04A74A3F67FA7D99AF1AC71A503DAE33",
+            "methodId" : "DAC269BBC1793BE065C9C9CC5F255D3A6"
+          }
+        ],
+        "id" : "D3233E6FE22830AEA76FCC8908233204F",
+        "static" : false,
+        "isSwift" : false,
+        "params" : [
+          {
+            "name" : "",
+            "type" : "",
+            "sel" : "deactivateAudioSession"
+          }
+        ],
+        "accessControl" : "private",
+        "returnType" : "void",
+        "type" : "method"
+      },
+      "DAC269BBC1793BE065C9C9CC5F255D3A6" : {
+        "isSwift" : false,
+        "accessControl" : "private",
+        "type" : "method",
+        "invokes" : [
+
+        ],
+        "id" : "DAC269BBC1793BE065C9C9CC5F255D3A6",
+        "params" : [
+          {
+            "name" : "",
+            "sel" : "pause",
+            "type" : ""
+          }
+        ],
+        "classId" : "D04A74A3F67FA7D99AF1AC71A503DAE33",
+        "returnType" : "void",
+        "static" : false
+      },
+      "D5F87A9871460C79B9795FA02A10FE4BC" : {
+        "params" : [
+          {
+            "name" : "numFrames",
+            "type" : "UInt32",
+            "sel" : "renderFrames"
+          },
+          {
+            "sel" : "ioData",
+            "name" : "ioData",
+            "type" : "AudioBufferList *"
+          }
+        ],
+        "id" : "D5F87A9871460C79B9795FA02A10FE4BC",
+        "invokes" : [
+
+        ],
+        "static" : false,
+        "isSwift" : false,
+        "classId" : "D04A74A3F67FA7D99AF1AC71A503DAE33",
+        "returnType" : "BOOL",
+        "accessControl" : "private",
+        "type" : "method"
+      }
+    },
+    "accessControl" : "public",
+    "id" : "D04A74A3F67FA7D99AF1AC71A503DAE33",
+    "protocols" : [
+      {
+        "id" : "DD2E9E1E2A5DBAA6B9DCE93DC9FEC0BE8",
+        "name" : "KxAudioManager"
+      }
+    ],
+    "super" : "KxAudioManager"
+  },
+  {
+    "super" : "NSObject",
+    "id" : "DDF9D694660ED566507BB8263B6AE6CC6",
+    "methods" : {
+      "D85BF69D37CB0A49CC7A75FB1CC4D9448" : {
+        "type" : "method",
+        "params" : [
+          {
+            "name" : "",
+            "type" : "",
+            "sel" : "dealloc"
+          }
+        ],
+        "accessControl" : "private",
+        "classId" : "DDF9D694660ED566507BB8263B6AE6CC6",
+        "id" : "D85BF69D37CB0A49CC7A75FB1CC4D9448",
+        "invokes" : [
+
+        ],
+        "static" : false,
+        "isSwift" : false,
+        "returnType" : "void"
+      },
+      "DB0F8E7A84429974982986990F5115080" : {
+        "accessControl" : "private",
+        "classId" : "DDF9D694660ED566507BB8263B6AE6CC6",
+        "isSwift" : false,
+        "returnType" : "BOOL",
+        "static" : false,
+        "type" : "method",
+        "id" : "DB0F8E7A84429974982986990F5115080",
+        "params" : [
+          {
+            "type" : "",
+            "sel" : "isValid",
+            "name" : ""
+          }
+        ],
+        "invokes" : [
+
+        ]
+      },
+      "D178B3B04787318205075109C51626C91" : {
+        "type" : "method",
+        "isSwift" : false,
+        "returnType" : "void",
+        "classId" : "DDF9D694660ED566507BB8263B6AE6CC6",
+        "id" : "D178B3B04787318205075109C51626C91",
+        "params" : [
+          {
+            "name" : "program",
+            "type" : "GLuint",
+            "sel" : "resolveUniforms"
+          }
+        ],
+        "static" : false,
+        "accessControl" : "private",
+        "invokes" : [
+
+        ]
+      },
+      "DDFEEA42F07B5B94DA500A9FB0137CC4F" : {
+        "isSwift" : false,
+        "classId" : "DDF9D694660ED566507BB8263B6AE6CC6",
+        "type" : "method",
+        "id" : "DDFEEA42F07B5B94DA500A9FB0137CC4F",
+        "invokes" : [
+
+        ],
+        "returnType" : "NSString *",
+        "params" : [
+          {
+            "type" : "",
+            "sel" : "fragmentShader",
+            "name" : ""
+          }
+        ],
+        "static" : false,
+        "accessControl" : "private"
+      },
+      "D914F159A1E63978C0E4C27F89476BD01" : {
+        "type" : "method",
+        "invokes" : [
+
+        ],
+        "classId" : "DDF9D694660ED566507BB8263B6AE6CC6",
+        "isSwift" : false,
+        "returnType" : "void",
+        "id" : "D914F159A1E63978C0E4C27F89476BD01",
+        "accessControl" : "private",
+        "params" : [
+          {
+            "name" : "frame",
+            "type" : "KxVideoFrame *",
+            "sel" : "setFrame"
+          }
+        ],
+        "static" : false
+      },
+      "D215CC344392190C943436A5A6A5BA391" : {
+        "returnType" : "BOOL",
+        "accessControl" : "private",
+        "isSwift" : false,
+        "invokes" : [
+
+        ],
+        "id" : "D215CC344392190C943436A5A6A5BA391",
+        "params" : [
+          {
+            "type" : "",
+            "sel" : "prepareRender",
+            "name" : ""
+          }
+        ],
+        "type" : "method",
+        "static" : false,
+        "classId" : "DDF9D694660ED566507BB8263B6AE6CC6"
+      }
+    },
+    "type" : "class",
+    "accessControl" : "public",
+    "protocols" : [
+      {
+        "name" : "KxMovieGLRenderer",
+        "id" : "D7CB51A51E2F3884654AD7D788E4E5611"
+      }
+    ],
+    "isSwift" : false,
+    "name" : "KxMovieGLRenderer_RGB"
+  },
+  {
+    "id" : "D01E97855FB7FC52A8B2CBFEA8CD15DB0",
+    "name" : "KxSubtitleFrame",
+    "accessControl" : "public",
+    "protocols" : [
+
+    ],
+    "methods" : {
+      "D7E175863EA618459D5459A72BE0C64CC" : {
+        "static" : false,
+        "returnType" : "KxMovieFrameType",
+        "accessControl" : "private",
+        "id" : "D7E175863EA618459D5459A72BE0C64CC",
+        "isSwift" : false,
+        "type" : "method",
+        "classId" : "D01E97855FB7FC52A8B2CBFEA8CD15DB0",
+        "params" : [
+          {
+            "name" : "",
+            "sel" : "type",
+            "type" : ""
+          }
+        ],
+        "invokes" : [
+
+        ]
+      }
+    },
+    "type" : "class",
+    "isSwift" : false,
+    "super" : "KxMovieFrame"
+  },
+  {
+    "id" : "D0220E3439AEDAC8B609F88A2A83594AC",
+    "accessControl" : "public",
+    "protocols" : [
+
+    ],
+    "type" : "class",
+    "super" : "KxVideoFrame",
+    "name" : "KxVideoFrameYUV",
+    "methods" : {
+      "DF63AF8444C9C403F8BE266C1F87ABBB1" : {
+        "static" : false,
+        "type" : "method",
+        "returnType" : "KxVideoFrameFormat",
+        "classId" : "D0220E3439AEDAC8B609F88A2A83594AC",
+        "isSwift" : false,
+        "invokes" : [
+
+        ],
+        "accessControl" : "private",
+        "params" : [
+          {
+            "type" : "",
+            "name" : "",
+            "sel" : "format"
+          }
+        ],
+        "id" : "DF63AF8444C9C403F8BE266C1F87ABBB1"
+      }
+    },
+    "isSwift" : false
+  },
+  {
+    "id" : "DADD2278D90C36672820E7CCE18C9CC46",
+    "super" : "KxMovieFrame",
+    "name" : "KxArtworkFrame",
+    "type" : "class",
+    "accessControl" : "public",
+    "protocols" : [
+
+    ],
+    "methods" : {
+      "DA2CCC257B60C210C44DFCB45CF04799F" : {
+        "isSwift" : false,
+        "static" : false,
+        "invokes" : [
+          {
+            "formatedName" : "[UIImage imageWithCGImage:]"
+          }
+        ],
+        "accessControl" : "public",
+        "classId" : "DADD2278D90C36672820E7CCE18C9CC46",
+        "id" : "DA2CCC257B60C210C44DFCB45CF04799F",
+        "returnType" : "UIImage *",
+        "params" : [
+          {
+            "type" : "",
+            "name" : "",
+            "sel" : "asImage"
+          }
+        ],
+        "type" : "method"
+      },
+      "D9201ACA24F1BA581CD44FD7EE6A3BCDE" : {
+        "isSwift" : false,
+        "static" : false,
+        "accessControl" : "private",
+        "id" : "D9201ACA24F1BA581CD44FD7EE6A3BCDE",
+        "params" : [
+          {
+            "name" : "",
+            "type" : "",
+            "sel" : "type"
+          }
+        ],
+        "invokes" : [
+
+        ],
+        "type" : "method",
+        "classId" : "DADD2278D90C36672820E7CCE18C9CC46",
+        "returnType" : "KxMovieFrameType"
+      }
+    },
+    "isSwift" : false
+  },
+  {
+    "isSwift" : false,
+    "super" : "NSObject",
+    "id" : "DD2E9E1E2A5DBAA6B9DCE93DC9FEC0BE8",
+    "type" : "class",
+    "accessControl" : "public",
+    "methods" : {
+      "D2E17C9531E749E5C0591E64F937F3A40" : {
+        "static" : true,
+        "invokes" : [
+          {
+            "formatedName" : "[[KxAudioManagerImpl alloc] init]"
+          }
+        ],
+        "returnType" : "id < KxAudioManager >",
+        "id" : "D2E17C9531E749E5C0591E64F937F3A40",
+        "accessControl" : "public",
+        "classId" : "DD2E9E1E2A5DBAA6B9DCE93DC9FEC0BE8",
+        "isSwift" : false,
+        "type" : "method",
+        "params" : [
+          {
+            "type" : "",
+            "sel" : "audioManager",
+            "name" : ""
+          }
+        ]
+      }
+    },
+    "name" : "KxAudioManager",
+    "protocols" : [
+
+    ]
+  },
+  {
+    "id" : "D29A56ABA0231384CE71C1AE3F0AB1ED0",
+    "methods" : {
+      "D4C78C6166B6DDA4CBD99F258CA114705" : {
+        "params" : [
+          {
+            "name" : "",
+            "sel" : "format",
+            "type" : ""
+          }
+        ],
+        "invokes" : [
+
+        ],
+        "classId" : "D29A56ABA0231384CE71C1AE3F0AB1ED0",
+        "type" : "method",
+        "returnType" : "KxVideoFrameFormat",
+        "isSwift" : false,
+        "static" : false,
+        "accessControl" : "private",
+        "id" : "D4C78C6166B6DDA4CBD99F258CA114705"
+      },
+      "DAED11523721E839BA5FB2FDBCBA77A7F" : {
+        "static" : false,
+        "classId" : "D29A56ABA0231384CE71C1AE3F0AB1ED0",
+        "returnType" : "UIImage *",
+        "type" : "method",
+        "isSwift" : false,
+        "id" : "DAED11523721E839BA5FB2FDBCBA77A7F",
+        "accessControl" : "public",
+        "invokes" : [
+          {
+            "formatedName" : "[UIImage imageWithCGImage:]"
+          }
+        ],
+        "params" : [
+          {
+            "sel" : "asImage",
+            "name" : "",
+            "type" : ""
+          }
+        ]
+      }
+    },
+    "isSwift" : false,
+    "accessControl" : "public",
+    "protocols" : [
+
+    ],
+    "super" : "KxVideoFrame",
+    "name" : "KxVideoFrameRGB",
+    "type" : "class"
+  },
+  {
+    "isSwift" : false,
+    "super" : "KxMovieFrame",
+    "protocols" : [
+
+    ],
+    "type" : "class",
+    "name" : "KxAudioFrame",
+    "accessControl" : "public",
+    "id" : "DA046445B0DDEB783622A289FEF580691",
+    "methods" : {
+      "D51FE95254525F3A76BE4D9F72AAD163D" : {
+        "id" : "D51FE95254525F3A76BE4D9F72AAD163D",
+        "isSwift" : false,
+        "returnType" : "KxMovieFrameType",
+        "accessControl" : "private",
+        "type" : "method",
+        "invokes" : [
+
+        ],
+        "static" : false,
+        "params" : [
+          {
+            "name" : "",
+            "sel" : "type",
+            "type" : ""
+          }
+        ],
+        "classId" : "DA046445B0DDEB783622A289FEF580691"
+      }
+    }
+  },
+  {
+    "type" : "class",
+    "accessControl" : "public",
+    "isSwift" : false,
+    "name" : "KxMovieViewController",
+    "protocols" : [
+      {
+        "name" : "UITableViewDataSource",
+        "id" : "D1CA6F15EEA08A23AD4904669C6DF3E99"
+      },
+      {
+        "id" : "D7BF6F37D51C530867384D36F8CAD6139",
+        "name" : "UITableViewDelegate"
+      }
+    ],
+    "super" : "UIViewController",
+    "methods" : {
+      "DFF10BBC1636DB7CD1818596C09C3FEAA" : {
+        "invokes" : [
+          {
+            "methodId" : "DB58D6CAACFCBADAA0437CCBF971B150A",
+            "classId" : "DF7ABB4895859FF3360408B74FB48B1D6"
+          },
+          {
+            "formatedName" : "[NSString stringWithFormat:]"
+          },
+          {
+            "formatedName" : "[d valueForKey:]"
+          },
+          {
+            "formatedName" : "[UIFont systemFontOfSize:]"
+          }
+        ],
+        "returnType" : "UITableViewCell *",
+        "type" : "method",
+        "classId" : "DF7ABB4895859FF3360408B74FB48B1D6",
+        "isSwift" : false,
+        "accessControl" : "private",
+        "params" : [
+          {
+            "sel" : "tableView",
+            "name" : "tableView",
+            "type" : "UITableView *"
+          },
+          {
+            "name" : "indexPath",
+            "sel" : "cellForRowAtIndexPath",
+            "type" : "NSIndexPath *"
+          }
+        ],
+        "static" : false,
+        "id" : "DFF10BBC1636DB7CD1818596C09C3FEAA"
+      },
+      "D933ABD8D3FEFBC4455C21F5999E39FD6" : {
+        "isSwift" : false,
+        "static" : true,
+        "returnType" : "void",
+        "classId" : "DF7ABB4895859FF3360408B74FB48B1D6",
+        "id" : "D933ABD8D3FEFBC4455C21F5999E39FD6",
+        "accessControl" : "private",
+        "invokes" : [
+          {
+            "formatedName" : "[NSMutableDictionary dictionary]"
+          }
+        ],
+        "type" : "method",
+        "params" : [
+          {
+            "type" : "",
+            "sel" : "initialize",
+            "name" : ""
+          }
+        ]
+      },
+      "D9F82999E1ADA52E1B5C7690C7B20301F" : {
+        "returnType" : "BOOL",
+        "classId" : "DF7ABB4895859FF3360408B74FB48B1D6",
+        "type" : "method",
+        "isSwift" : false,
+        "params" : [
+          {
+            "type" : "UIInterfaceOrientation",
+            "sel" : "shouldAutorotateToInterfaceOrientation",
+            "name" : "interfaceOrientation"
+          }
+        ],
+        "accessControl" : "private",
+        "static" : false,
+        "invokes" : [
+
+        ],
+        "id" : "D9F82999E1ADA52E1B5C7690C7B20301F"
+      },
+      "D19848C031AB610D43DD13F08846873DF" : {
+        "invokes" : [
+          {
+            "methodId" : "D19848C031AB610D43DD13F08846873DF",
+            "classId" : "DF7ABB4895859FF3360408B74FB48B1D6"
+          },
+          {
+            "classId" : "DF7ABB4895859FF3360408B74FB48B1D6",
+            "methodId" : "DE3527CC349B05EA75E2516087CA13BFE"
+          },
+          {
+            "methodId" : "D0F03340836901B8689F9FA26C01D27E8",
+            "classId" : "DF7ABB4895859FF3360408B74FB48B1D6"
+          },
+          {
+            "methodId" : "D7F71897E734F81E94E10DDC665CC2F3E",
+            "classId" : "DF7ABB4895859FF3360408B74FB48B1D6"
+          },
+          {
+            "formatedName" : "[_decoder closeFile]"
+          },
+          {
+            "formatedName" : "[_decoder openFile: error:]"
+          },
+          {
+            "formatedName" : "[[[UIAlertView alloc] initWithTitle: message: delegate: cancelButtonTitle: otherButtonTitles:] show]"
+          }
+        ],
+        "returnType" : "void",
+        "id" : "D19848C031AB610D43DD13F08846873DF",
+        "static" : false,
+        "accessControl" : "private",
+        "params" : [
+          {
+            "sel" : "didReceiveMemoryWarning",
+            "type" : "",
+            "name" : ""
+          }
+        ],
+        "classId" : "DF7ABB4895859FF3360408B74FB48B1D6",
+        "isSwift" : false,
+        "type" : "method"
+      },
+      "D420BEBF4E4E5A9C6432A4689A118B8D6" : {
+        "params" : [
+          {
+            "sel" : "fullscreenMode",
+            "name" : "on",
+            "type" : "BOOL"
+          }
+        ],
+        "static" : false,
+        "invokes" : [
+          {
+            "formatedName" : "[UIApplication sharedApplication]"
+          },
+          {
+            "formatedName" : "[app setStatusBarHidden: withAnimation:]"
+          }
+        ],
+        "isSwift" : false,
+        "accessControl" : "private",
+        "classId" : "DF7ABB4895859FF3360408B74FB48B1D6",
+        "type" : "method",
+        "returnType" : "void",
+        "id" : "D420BEBF4E4E5A9C6432A4689A118B8D6"
+      },
+      "DEE50B6AF3231418BA40BFA16F71EE3D7" : {
+        "classId" : "DF7ABB4895859FF3360408B74FB48B1D6",
+        "type" : "method",
+        "returnType" : "void",
+        "isSwift" : false,
+        "params" : [
+          {
+            "type" : "",
+            "sel" : "setMoviePositionFromDecoder",
+            "name" : ""
+          }
+        ],
+        "invokes" : [
+
+        ],
+        "static" : false,
+        "accessControl" : "private",
+        "id" : "DEE50B6AF3231418BA40BFA16F71EE3D7"
+      },
+      "D72248E667DC7FDD206BB0089E4455DB5" : {
+        "accessControl" : "private",
+        "params" : [
+          {
+            "name" : "",
+            "type" : "",
+            "sel" : "setupPresentView"
+          }
+        ],
+        "id" : "D72248E667DC7FDD206BB0089E4455DB5",
+        "invokes" : [
+          {
+            "formatedName" : "[[KxMovieGLView alloc] initWithFrame: decoder:]"
+          },
+          {
+            "formatedName" : "[_decoder setupVideoFrameFormat:]"
+          },
+          {
+            "formatedName" : "[[UIImageView alloc] initWithFrame:]"
+          },
+          {
+            "formatedName" : "[UIColor blackColor]"
+          },
+          {
+            "classId" : "DF7ABB4895859FF3360408B74FB48B1D6",
+            "methodId" : "D2E8DDE61535B5A660C50D89857594BE6"
+          },
+          {
+            "classId" : "DF7ABB4895859FF3360408B74FB48B1D6",
+            "methodId" : "D39277A5C576FE9708090A7AAF48F5738"
+          },
+          {
+            "formatedName" : "[UIImage imageNamed:]"
+          },
+          {
+            "formatedName" : "[UIColor clearColor]"
+          },
+          {
+            "formatedName" : "[UIFont systemFontOfSize:]"
+          },
+          {
+            "formatedName" : "[_progressSlider addTarget: action: forControlEvents:]"
+          },
+          {
+            "formatedName" : "[UIColor whiteColor]"
+          }
+        ],
+        "returnType" : "void",
+        "type" : "method",
+        "isSwift" : false,
+        "static" : false,
+        "classId" : "DF7ABB4895859FF3360408B74FB48B1D6"
+      },
+      "D288B70D7438BEA1322634DCCA0E5B7A3" : {
+        "classId" : "DF7ABB4895859FF3360408B74FB48B1D6",
+        "static" : false,
+        "invokes" : [
+          {
+            "formatedName" : "[_glView render:]"
+          },
+          {
+            "formatedName" : "[rgbFrame asImage]"
+          }
+        ],
+        "isSwift" : false,
+        "type" : "method",
+        "params" : [
+          {
+            "type" : "KxVideoFrame *",
+            "name" : "frame",
+            "sel" : "presentVideoFrame"
+          }
+        ],
+        "accessControl" : "private",
+        "returnType" : "CGFloat",
+        "id" : "D288B70D7438BEA1322634DCCA0E5B7A3"
+      },
+      "D2D8BFFF2E6558B534C49E78BB064E5F7" : {
+        "accessControl" : "private",
+        "classId" : "DF7ABB4895859FF3360408B74FB48B1D6",
+        "id" : "D2D8BFFF2E6558B534C49E78BB064E5F7",
+        "returnType" : "void",
+        "params" : [
+          {
+            "sel" : "handleDecoderMovieError",
+            "type" : "NSError *",
+            "name" : "error"
+          }
+        ],
+        "static" : false,
+        "invokes" : [
+          {
+            "formatedName" : "[[UIAlertView alloc] initWithTitle: message: delegate: cancelButtonTitle: otherButtonTitles:]"
+          },
+          {
+            "formatedName" : "[alertView show]"
+          },
+          {
+            "formatedName" : "[error localizedDescription]"
+          }
+        ],
+        "type" : "method",
+        "isSwift" : false
+      },
+      "D6D91F1CCA18CEBBE420CCF4B3A1DD0EA" : {
+        "invokes" : [
+          {
+            "formatedName" : "[super initWithNibName: bundle:]"
+          },
+          {
+            "formatedName" : "[[KxMovieDecoder alloc] init]"
+          },
+          {
+            "classId" : "DF7ABB4895859FF3360408B74FB48B1D6",
+            "methodId" : "DEF532EA190AFC35F095873E0DEE6DAD2"
+          },
+          {
+            "formatedName" : "[decoder openFile: error:]"
+          },
+          {
+            "classId" : "DF7ABB4895859FF3360408B74FB48B1D6",
+            "methodId" : "DD90D5A4AA749BCE219B6F532CA76FBB5"
+          }
+        ],
+        "id" : "D6D91F1CCA18CEBBE420CCF4B3A1DD0EA",
+        "isSwift" : false,
+        "classId" : "DF7ABB4895859FF3360408B74FB48B1D6",
+        "params" : [
+          {
+            "name" : "path",
+            "sel" : "initWithContentPath",
+            "type" : "NSString *"
+          },
+          {
+            "sel" : "parameters",
+            "type" : "NSDictionary *",
+            "name" : "parameters"
+          }
+        ],
+        "static" : false,
+        "type" : "method",
+        "returnType" : "id",
+        "accessControl" : "private"
+      },
+      "DC8972AE9322CCD6E0311F974DBAE0C59" : {
+        "invokes" : [
+          {
+            "classId" : "DF7ABB4895859FF3360408B74FB48B1D6",
+            "methodId" : "DAF802154C1BA37E8344FDFD1B7A5A6B2"
+          },
+          {
+            "methodId" : "D2E8DDE61535B5A660C50D89857594BE6",
+            "classId" : "DF7ABB4895859FF3360408B74FB48B1D6"
+          }
+        ],
+        "classId" : "DF7ABB4895859FF3360408B74FB48B1D6",
+        "accessControl" : "private",
+        "returnType" : "void",
+        "static" : false,
+        "isSwift" : false,
+        "id" : "DC8972AE9322CCD6E0311F974DBAE0C59",
+        "type" : "method",
+        "params" : [
+          {
+            "name" : "sender",
+            "type" : "UITapGestureRecognizer *",
+            "sel" : "handleTap"
+          }
+        ]
+      },
+      "D9B805809B70AF5554473FB3C9D3578D9" : {
+        "returnType" : "void",
+        "static" : false,
+        "invokes" : [
+          {
+            "classId" : "DF7ABB4895859FF3360408B74FB48B1D6",
+            "methodId" : "DE3527CC349B05EA75E2516087CA13BFE"
+          },
+          {
+            "classId" : "DF7ABB4895859FF3360408B74FB48B1D6",
+            "methodId" : "D7F71897E734F81E94E10DDC665CC2F3E"
+          }
+        ],
+        "classId" : "DF7ABB4895859FF3360408B74FB48B1D6",
+        "type" : "method",
+        "id" : "D9B805809B70AF5554473FB3C9D3578D9",
+        "params" : [
+          {
+            "name" : "sender",
+            "type" : "id",
+            "sel" : "playDidTouch"
+          }
+        ],
+        "accessControl" : "private",
+        "isSwift" : false
+      },
+      "D32FD02D7B28F30F12B1E710E7C32D9D4" : {
+        "returnType" : "void",
+        "params" : [
+          {
+            "type" : "BOOL",
+            "name" : "on",
+            "sel" : "enableAudio"
+          }
+        ],
+        "type" : "method",
+        "static" : false,
+        "classId" : "DF7ABB4895859FF3360408B74FB48B1D6",
+        "accessControl" : "private",
+        "isSwift" : false,
+        "id" : "D32FD02D7B28F30F12B1E710E7C32D9D4",
+        "invokes" : [
+          {
+            "formatedName" : "[KxAudioManager audioManager]"
+          },
+          {
+            "classId" : "DF7ABB4895859FF3360408B74FB48B1D6",
+            "methodId" : "D0967D3734B5DEB4D539A274B1B644A1C"
+          },
+          {
+            "methodId" : "D7F71897E734F81E94E10DDC665CC2F3E",
+            "classId" : "DF7ABB4895859FF3360408B74FB48B1D6"
+          },
+          {
+            "classId" : "DF7ABB4895859FF3360408B74FB48B1D6",
+            "methodId" : "DE3527CC349B05EA75E2516087CA13BFE"
+          }
+        ]
+      },
+      "DE3527CC349B05EA75E2516087CA13BFE" : {
+        "type" : "method",
+        "isSwift" : false,
+        "id" : "DE3527CC349B05EA75E2516087CA13BFE",
+        "static" : false,
+        "classId" : "DF7ABB4895859FF3360408B74FB48B1D6",
+        "returnType" : "void",
+        "params" : [
+          {
+            "type" : "",
+            "sel" : "pause",
+            "name" : ""
+          }
+        ],
+        "accessControl" : "public",
+        "invokes" : [
+          {
+            "methodId" : "D32FD02D7B28F30F12B1E710E7C32D9D4",
+            "classId" : "DF7ABB4895859FF3360408B74FB48B1D6"
+          },
+          {
+            "classId" : "DF7ABB4895859FF3360408B74FB48B1D6",
+            "methodId" : "DD29A57D1F3B3D678C9B7C1E4996FE52E"
+          }
+        ]
+      },
+      "DD11F15B9EA98CED841888B6022AAF9A8" : {
+        "params" : [
+          {
+            "type" : "",
+            "name" : "",
+            "sel" : "enableUpdateHUD"
+          }
+        ],
+        "invokes" : [
+
+        ],
+        "classId" : "DF7ABB4895859FF3360408B74FB48B1D6",
+        "returnType" : "void",
+        "static" : false,
+        "id" : "DD11F15B9EA98CED841888B6022AAF9A8",
+        "accessControl" : "private",
+        "type" : "method",
+        "isSwift" : false
+      },
+      "D7F71897E734F81E94E10DDC665CC2F3E" : {
+        "invokes" : [
+          {
+            "methodId" : "DD8070245A16284BAA480A2FAC4862826",
+            "classId" : "DF7ABB4895859FF3360408B74FB48B1D6"
+          },
+          {
+            "classId" : "DF7ABB4895859FF3360408B74FB48B1D6",
+            "methodId" : "DD29A57D1F3B3D678C9B7C1E4996FE52E"
+          },
+          {
+            "methodId" : "D489992EDF2ED8285848B41A2CA73B581",
+            "classId" : "DF7ABB4895859FF3360408B74FB48B1D6"
+          },
+          {
+            "methodId" : "D32FD02D7B28F30F12B1E710E7C32D9D4",
+            "classId" : "DF7ABB4895859FF3360408B74FB48B1D6"
+          }
+        ],
+        "type" : "method",
+        "returnType" : "void",
+        "classId" : "DF7ABB4895859FF3360408B74FB48B1D6",
+        "accessControl" : "public",
+        "static" : false,
+        "id" : "D7F71897E734F81E94E10DDC665CC2F3E",
+        "params" : [
+          {
+            "name" : "",
+            "sel" : "play",
+            "type" : ""
+          }
+        ],
+        "isSwift" : false
+      },
+      "D0F03340836901B8689F9FA26C01D27E8" : {
+        "type" : "method",
+        "accessControl" : "private",
+        "invokes" : [
+          {
+            "formatedName" : "[_videoFrames removeAllObjects]"
+          }
+        ],
+        "id" : "D0F03340836901B8689F9FA26C01D27E8",
+        "returnType" : "void",
+        "classId" : "DF7ABB4895859FF3360408B74FB48B1D6",
+        "params" : [
+          {
+            "sel" : "freeBufferedFrames",
+            "name" : "",
+            "type" : ""
+          }
+        ],
+        "isSwift" : false,
+        "static" : false
+      },
+      "D2E6C257E62F262D276CFD4B66E333923" : {
+        "accessControl" : "private",
+        "classId" : "DF7ABB4895859FF3360408B74FB48B1D6",
+        "type" : "method",
+        "isSwift" : false,
+        "static" : false,
+        "params" : [
+          {
+            "name" : "sender",
+            "type" : "id",
+            "sel" : "doneDidTouch"
+          }
+        ],
+        "returnType" : "void",
+        "invokes" : [
+          {
+            "formatedName" : "[self dismissViewControllerAnimated: completion:]"
+          }
+        ],
+        "id" : "D2E6C257E62F262D276CFD4B66E333923"
+      },
+      "DD29A57D1F3B3D678C9B7C1E4996FE52E" : {
+        "static" : false,
+        "returnType" : "void",
+        "params" : [
+          {
+            "name" : "",
+            "sel" : "updatePlayButton",
+            "type" : ""
+          }
+        ],
+        "isSwift" : false,
+        "invokes" : [
+          {
+            "classId" : "DF7ABB4895859FF3360408B74FB48B1D6",
+            "methodId" : "D6294E94953694202BBB5EAB2B606E4BF"
+          }
+        ],
+        "classId" : "DF7ABB4895859FF3360408B74FB48B1D6",
+        "id" : "DD29A57D1F3B3D678C9B7C1E4996FE52E",
+        "accessControl" : "private",
+        "type" : "method"
+      },
+      "D2104E391C5202174496BBA707D4C3A19" : {
+        "isSwift" : false,
+        "invokes" : [
+          {
+            "formatedName" : "[NSMutableArray array]"
+          },
+          {
+            "formatedName" : "[outdated addObject:]"
+          }
+        ],
+        "accessControl" : "private",
+        "returnType" : "BOOL",
+        "id" : "D2104E391C5202174496BBA707D4C3A19",
+        "type" : "method",
+        "static" : false,
+        "classId" : "DF7ABB4895859FF3360408B74FB48B1D6",
+        "params" : [
+          {
+            "type" : "CGFloat",
+            "sel" : "subtitleForPosition",
+            "name" : "position"
+          },
+          {
+            "name" : "pActual",
+            "sel" : "actual",
+            "type" : "NSArray * *"
+          },
+          {
+            "name" : "pOutdated",
+            "type" : "NSArray * *",
+            "sel" : "outdated"
+          }
+        ]
+      },
+      "D9D2E032483FC3534B4CA4456421E83B6" : {
+        "classId" : "DF7ABB4895859FF3360408B74FB48B1D6",
+        "returnType" : "void",
+        "params" : [
+          {
+            "sel" : "showInfoView",
+            "name" : "showInfo",
+            "type" : "BOOL"
+          },
+          {
+            "name" : "animated",
+            "type" : "BOOL",
+            "sel" : "animated"
+          }
+        ],
+        "id" : "D9D2E032483FC3534B4CA4456421E83B6",
+        "isSwift" : false,
+        "invokes" : [
+          {
+            "classId" : "DF7ABB4895859FF3360408B74FB48B1D6",
+            "methodId" : "DD453DBE5C376F5BCCAA8E4A49F2DB3EA"
+          },
+          {
+            "methodId" : "DE3527CC349B05EA75E2516087CA13BFE",
+            "classId" : "DF7ABB4895859FF3360408B74FB48B1D6"
+          },
+          {
+            "formatedName" : "[UIView animateWithDuration: delay: options: animations: completion:]"
+          }
+        ],
+        "accessControl" : "private",
+        "static" : false,
+        "type" : "method"
+      },
+      "D4A4E12BADF47F33B2DBB52EE38CFB190" : {
+        "type" : "method",
+        "id" : "D4A4E12BADF47F33B2DBB52EE38CFB190",
+        "invokes" : [
+
+        ],
+        "classId" : "DF7ABB4895859FF3360408B74FB48B1D6",
+        "accessControl" : "private",
+        "returnType" : "NSInteger",
+        "params" : [
+          {
+            "name" : "tableView",
+            "sel" : "numberOfSectionsInTableView",
+            "type" : "UITableView *"
+          }
+        ],
+        "isSwift" : false,
+        "static" : false
+      },
+      "D007A9DF6D1A57DA3C21B77BC6E681C58" : {
+        "id" : "D007A9DF6D1A57DA3C21B77BC6E681C58",
+        "isSwift" : false,
+        "invokes" : [
+          {
+            "formatedName" : "[KxAudioManager audioManager]"
+          },
+          {
+            "formatedName" : "[audioManager activateAudioSession]"
+          },
+          {
+            "methodId" : "D6D91F1CCA18CEBBE420CCF4B3A1DD0EA",
+            "classId" : "DF7ABB4895859FF3360408B74FB48B1D6"
+          }
+        ],
+        "classId" : "DF7ABB4895859FF3360408B74FB48B1D6",
+        "type" : "method",
+        "returnType" : "id",
+        "accessControl" : "public",
+        "static" : true,
+        "params" : [
+          {
+            "sel" : "movieViewControllerWithContentPath",
+            "name" : "path",
+            "type" : "NSString *"
+          },
+          {
+            "type" : "NSDictionary *",
+            "sel" : "parameters",
+            "name" : "parameters"
+          }
+        ]
+      },
+      "D0967D3734B5DEB4D539A274B1B644A1C" : {
+        "isSwift" : false,
+        "static" : false,
+        "invokes" : [
+          {
+            "formatedName" : "[NSDate date]"
+          },
+          {
+            "formatedName" : "[_audioFrames removeObjectAtIndex:]"
+          }
+        ],
+        "params" : [
+          {
+            "sel" : "audioCallbackFillData",
+            "name" : "outData",
+            "type" : "float *"
+          },
+          {
+            "type" : "UInt32",
+            "sel" : "numFrames",
+            "name" : "numFrames"
+          },
+          {
+            "type" : "UInt32",
+            "name" : "numChannels",
+            "sel" : "numChannels"
+          }
+        ],
+        "accessControl" : "private",
+        "id" : "D0967D3734B5DEB4D539A274B1B644A1C",
+        "type" : "method",
+        "returnType" : "void",
+        "classId" : "DF7ABB4895859FF3360408B74FB48B1D6"
+      },
+      "DEC0C669C3305E381E18FFC107DC07237" : {
+        "classId" : "DF7ABB4895859FF3360408B74FB48B1D6",
+        "id" : "DEC0C669C3305E381E18FFC107DC07237",
+        "type" : "method",
+        "isSwift" : false,
+        "accessControl" : "private",
+        "returnType" : "void",
+        "params" : [
+          {
+            "name" : "",
+            "type" : "",
+            "sel" : "restorePlay"
+          }
+        ],
+        "invokes" : [
+          {
+            "formatedName" : "[gHistory valueForKey:]"
+          },
+          {
+            "classId" : "DF7ABB4895859FF3360408B74FB48B1D6",
+            "methodId" : "D8B280C62455A689887AF38AC602CA70A"
+          },
+          {
+            "classId" : "DF7ABB4895859FF3360408B74FB48B1D6",
+            "methodId" : "D7F71897E734F81E94E10DDC665CC2F3E"
+          }
+        ],
+        "static" : false
+      },
+      "DD453DBE5C376F5BCCAA8E4A49F2DB3EA" : {
+        "id" : "DD453DBE5C376F5BCCAA8E4A49F2DB3EA",
+        "classId" : "DF7ABB4895859FF3360408B74FB48B1D6",
+        "accessControl" : "private",
+        "type" : "method",
+        "returnType" : "void",
+        "params" : [
+          {
+            "type" : "",
+            "sel" : "createTableView",
+            "name" : ""
+          }
+        ],
+        "invokes" : [
+          {
+            "formatedName" : "[[UITableView alloc] initWithFrame: style:]"
+          }
+        ],
+        "isSwift" : false,
+        "static" : false
+      },
+      "D1051F94A9967DD879BDDEB5CF8F7292F" : {
+        "accessControl" : "private",
+        "classId" : "DF7ABB4895859FF3360408B74FB48B1D6",
+        "type" : "method",
+        "params" : [
+          {
+            "type" : "",
+            "sel" : "dealloc",
+            "name" : ""
+          }
+        ],
+        "isSwift" : false,
+        "id" : "D1051F94A9967DD879BDDEB5CF8F7292F",
+        "invokes" : [
+          {
+            "methodId" : "DE3527CC349B05EA75E2516087CA13BFE",
+            "classId" : "DF7ABB4895859FF3360408B74FB48B1D6"
+          },
+          {
+            "formatedName" : "[[NSNotificationCenter defaultCenter] removeObserver:]"
+          }
+        ],
+        "returnType" : "void",
+        "static" : false
+      },
+      "D2E8DDE61535B5A660C50D89857594BE6" : {
+        "params" : [
+          {
+            "type" : "",
+            "name" : "",
+            "sel" : "frameView"
+          }
+        ],
+        "id" : "D2E8DDE61535B5A660C50D89857594BE6",
+        "static" : false,
+        "classId" : "DF7ABB4895859FF3360408B74FB48B1D6",
+        "isSwift" : false,
+        "returnType" : "UIView *",
+        "accessControl" : "private",
+        "invokes" : [
+
+        ],
+        "type" : "method"
+      },
+      "D68778D0949B24182A922F5DAD183C4BE" : {
+        "id" : "D68778D0949B24182A922F5DAD183C4BE",
+        "params" : [
+          {
+            "sel" : "tableView",
+            "name" : "tableView",
+            "type" : "UITableView *"
+          },
+          {
+            "sel" : "numberOfRowsInSection",
+            "type" : "NSInteger",
+            "name" : "section"
+          }
+        ],
+        "accessControl" : "private",
+        "returnType" : "NSInteger",
+        "classId" : "DF7ABB4895859FF3360408B74FB48B1D6",
+        "static" : false,
+        "type" : "method",
+        "invokes" : [
+
+        ],
+        "isSwift" : false
+      },
+      "DD8070245A16284BAA480A2FAC4862826" : {
+        "static" : false,
+        "invokes" : [
+          {
+            "formatedName" : "[decoder decodeFrames:]"
+          },
+          {
+            "methodId" : "D962D94899290D7E37F845CB35B32B92A",
+            "classId" : "DF7ABB4895859FF3360408B74FB48B1D6"
+          }
+        ],
+        "isSwift" : false,
+        "type" : "method",
+        "classId" : "DF7ABB4895859FF3360408B74FB48B1D6",
+        "accessControl" : "private",
+        "params" : [
+          {
+            "sel" : "asyncDecodeFrames",
+            "type" : "",
+            "name" : ""
+          }
+        ],
+        "returnType" : "void",
+        "id" : "DD8070245A16284BAA480A2FAC4862826"
+      },
+      "D8B280C62455A689887AF38AC602CA70A" : {
+        "accessControl" : "private",
+        "params" : [
+          {
+            "sel" : "updatePosition",
+            "name" : "position",
+            "type" : "CGFloat"
+          },
+          {
+            "name" : "playMode",
+            "type" : "BOOL",
+            "sel" : "playMode"
+          }
+        ],
+        "id" : "D8B280C62455A689887AF38AC602CA70A",
+        "returnType" : "void",
+        "classId" : "DF7ABB4895859FF3360408B74FB48B1D6",
+        "static" : false,
+        "type" : "method",
+        "isSwift" : false,
+        "invokes" : [
+          {
+            "classId" : "DF7ABB4895859FF3360408B74FB48B1D6",
+            "methodId" : "D0F03340836901B8689F9FA26C01D27E8"
+          },
+          {
+            "methodId" : "DEF57352766A0CAFC6A06E0BCA0B0BCFD",
+            "classId" : "DF7ABB4895859FF3360408B74FB48B1D6"
+          },
+          {
+            "classId" : "DF7ABB4895859FF3360408B74FB48B1D6",
+            "methodId" : "DEE50B6AF3231418BA40BFA16F71EE3D7"
+          },
+          {
+            "methodId" : "D7F71897E734F81E94E10DDC665CC2F3E",
+            "classId" : "DF7ABB4895859FF3360408B74FB48B1D6"
+          },
+          {
+            "methodId" : "DE5C6A80A2B6AF08216F8BA643428A8A1",
+            "classId" : "DF7ABB4895859FF3360408B74FB48B1D6"
+          },
+          {
+            "methodId" : "DD11F15B9EA98CED841888B6022AAF9A8",
+            "classId" : "DF7ABB4895859FF3360408B74FB48B1D6"
+          },
+          {
+            "methodId" : "D1EB8E1E421CA26667C23833284C281A0",
+            "classId" : "DF7ABB4895859FF3360408B74FB48B1D6"
+          },
+          {
+            "classId" : "DF7ABB4895859FF3360408B74FB48B1D6",
+            "methodId" : "D328ACD6922A23940F8B643C5AF5582D9"
+          }
+        ]
+      },
+      "D174B986D050D98B01DF5AA086C89F64F" : {
+        "returnType" : "void",
+        "invokes" : [
+          {
+            "methodId" : "DD4ACCA0FC1F01063AAA640EBD53D53C4",
+            "classId" : "DF7ABB4895859FF3360408B74FB48B1D6"
+          }
+        ],
+        "isSwift" : false,
+        "static" : false,
+        "accessControl" : "private",
+        "id" : "D174B986D050D98B01DF5AA086C89F64F",
+        "classId" : "DF7ABB4895859FF3360408B74FB48B1D6",
+        "type" : "method",
+        "params" : [
+          {
+            "type" : "id",
+            "sel" : "rewindDidTouch",
+            "name" : "sender"
+          }
+        ]
+      },
+      "D5FA2DAC254D91B5790C3225B2A86E3CD" : {
+        "returnType" : "void",
+        "params" : [
+          {
+            "name" : "sender",
+            "type" : "id",
+            "sel" : "forwardDidTouch"
+          }
+        ],
+        "invokes" : [
+          {
+            "methodId" : "DD4ACCA0FC1F01063AAA640EBD53D53C4",
+            "classId" : "DF7ABB4895859FF3360408B74FB48B1D6"
+          }
+        ],
+        "accessControl" : "private",
+        "id" : "D5FA2DAC254D91B5790C3225B2A86E3CD",
+        "static" : false,
+        "type" : "method",
+        "isSwift" : false,
+        "classId" : "DF7ABB4895859FF3360408B74FB48B1D6"
+      },
+      "D898BD3A3282C9C138D5240121D1D7786" : {
+        "accessControl" : "private",
+        "classId" : "DF7ABB4895859FF3360408B74FB48B1D6",
+        "params" : [
+          {
+            "type" : "",
+            "sel" : "tickCorrection",
+            "name" : ""
+          }
+        ],
+        "id" : "D898BD3A3282C9C138D5240121D1D7786",
+        "type" : "method",
+        "isSwift" : false,
+        "returnType" : "CGFloat",
+        "static" : false,
+        "invokes" : [
+          {
+            "formatedName" : "[NSDate timeIntervalSinceReferenceDate]"
+          }
+        ]
+      },
+      "D39277A5C576FE9708090A7AAF48F5738" : {
+        "id" : "D39277A5C576FE9708090A7AAF48F5738",
+        "type" : "method",
+        "params" : [
+          {
+            "name" : "",
+            "type" : "",
+            "sel" : "setupUserInteraction"
+          }
+        ],
+        "static" : false,
+        "invokes" : [
+          {
+            "methodId" : "D2E8DDE61535B5A660C50D89857594BE6",
+            "classId" : "DF7ABB4895859FF3360408B74FB48B1D6"
+          },
+          {
+            "formatedName" : "[[UITapGestureRecognizer alloc] initWithTarget: action:]"
+          },
+          {
+            "formatedName" : "[_tapGestureRecognizer requireGestureRecognizerToFail:]"
+          },
+          {
+            "formatedName" : "[view addGestureRecognizer:]"
+          }
+        ],
+        "accessControl" : "private",
+        "isSwift" : false,
+        "returnType" : "void",
+        "classId" : "DF7ABB4895859FF3360408B74FB48B1D6"
+      },
+      "DB58D6CAACFCBADAA0437CCBF971B150A" : {
+        "accessControl" : "private",
+        "invokes" : [
+          {
+            "formatedName" : "[_tableView dequeueReusableCellWithIdentifier:]"
+          },
+          {
+            "formatedName" : "[[UITableViewCell alloc] initWithStyle: reuseIdentifier:]"
+          }
+        ],
+        "id" : "DB58D6CAACFCBADAA0437CCBF971B150A",
+        "classId" : "DF7ABB4895859FF3360408B74FB48B1D6",
+        "returnType" : "id",
+        "params" : [
+          {
+            "name" : "cellIdentifier",
+            "type" : "NSString *",
+            "sel" : "mkCell"
+          },
+          {
+            "name" : "style",
+            "type" : "UITableViewCellStyle",
+            "sel" : "withStyle"
+          }
+        ],
+        "static" : false,
+        "type" : "method",
+        "isSwift" : false
+      },
+      "DFCB178ED9DA7ECA42EC07631DE343F68" : {
+        "params" : [
+          {
+            "name" : "notification",
+            "type" : "NSNotification *",
+            "sel" : "applicationWillResignActive"
+          }
+        ],
+        "classId" : "DF7ABB4895859FF3360408B74FB48B1D6",
+        "isSwift" : false,
+        "returnType" : "void",
+        "accessControl" : "private",
+        "type" : "method",
+        "id" : "DFCB178ED9DA7ECA42EC07631DE343F68",
+        "static" : false,
+        "invokes" : [
+          {
+            "classId" : "DF7ABB4895859FF3360408B74FB48B1D6",
+            "methodId" : "DAF802154C1BA37E8344FDFD1B7A5A6B2"
+          },
+          {
+            "methodId" : "DE3527CC349B05EA75E2516087CA13BFE",
+            "classId" : "DF7ABB4895859FF3360408B74FB48B1D6"
+          }
+        ]
+      },
+      "D782FA6097F86C779F77B7FA72C9418E2" : {
+        "static" : false,
+        "accessControl" : "private",
+        "isSwift" : false,
+        "type" : "method",
+        "returnType" : "void",
+        "params" : [
+          {
+            "name" : "animated",
+            "type" : "BOOL",
+            "sel" : "viewDidAppear"
+          }
+        ],
+        "classId" : "DF7ABB4895859FF3360408B74FB48B1D6",
+        "invokes" : [
+          {
+            "classId" : "DF7ABB4895859FF3360408B74FB48B1D6",
+            "methodId" : "D782FA6097F86C779F77B7FA72C9418E2"
+          },
+          {
+            "classId" : "DF7ABB4895859FF3360408B74FB48B1D6",
+            "methodId" : "D420BEBF4E4E5A9C6432A4689A118B8D6"
+          },
+          {
+            "methodId" : "D9D2E032483FC3534B4CA4456421E83B6",
+            "classId" : "DF7ABB4895859FF3360408B74FB48B1D6"
+          },
+          {
+            "formatedName" : "[[UIApplication sharedApplication] isIdleTimerDisabled]"
+          },
+          {
+            "classId" : "DF7ABB4895859FF3360408B74FB48B1D6",
+            "methodId" : "DAF802154C1BA37E8344FDFD1B7A5A6B2"
+          },
+          {
+            "classId" : "DF7ABB4895859FF3360408B74FB48B1D6",
+            "methodId" : "DEC0C669C3305E381E18FFC107DC07237"
+          },
+          {
+            "formatedName" : "[_activityIndicatorView startAnimating]"
+          },
+          {
+            "formatedName" : "[[NSNotificationCenter defaultCenter] addObserver: selector: name: object:]"
+          },
+          {
+            "formatedName" : "[UIApplication sharedApplication]"
+          }
+        ],
+        "id" : "D782FA6097F86C779F77B7FA72C9418E2"
+      },
+      "D9F8C6020B5C13858171E6BC08800A90C" : {
+        "invokes" : [
+          {
+            "formatedName" : "[[NSNotificationCenter defaultCenter] removeObserver:]"
+          },
+          {
+            "methodId" : "D9F8C6020B5C13858171E6BC08800A90C",
+            "classId" : "DF7ABB4895859FF3360408B74FB48B1D6"
+          },
+          {
+            "formatedName" : "[_activityIndicatorView stopAnimating]"
+          },
+          {
+            "classId" : "DF7ABB4895859FF3360408B74FB48B1D6",
+            "methodId" : "DE3527CC349B05EA75E2516087CA13BFE"
+          },
+          {
+            "formatedName" : "[gHistory removeObjectForKey:]"
+          },
+          {
+            "formatedName" : "[gHistory setValue: forKey:]"
+          },
+          {
+            "classId" : "DF7ABB4895859FF3360408B74FB48B1D6",
+            "methodId" : "D420BEBF4E4E5A9C6432A4689A118B8D6"
+          },
+          {
+            "formatedName" : "[[UIApplication sharedApplication] setIdleTimerDisabled:]"
+          },
+          {
+            "formatedName" : "[NSNumber numberWithFloat:]"
+          }
+        ],
+        "returnType" : "void",
+        "params" : [
+          {
+            "sel" : "viewWillDisappear",
+            "type" : "BOOL",
+            "name" : "animated"
+          }
+        ],
+        "static" : false,
+        "isSwift" : false,
+        "accessControl" : "private",
+        "id" : "D9F8C6020B5C13858171E6BC08800A90C",
+        "type" : "method",
+        "classId" : "DF7ABB4895859FF3360408B74FB48B1D6"
+      },
+      "D328ACD6922A23940F8B643C5AF5582D9" : {
+        "params" : [
+          {
+            "sel" : "updateHUD",
+            "type" : "",
+            "name" : ""
+          }
+        ],
+        "isSwift" : false,
+        "id" : "D328ACD6922A23940F8B643C5AF5582D9",
+        "accessControl" : "private",
+        "invokes" : [
+          {
+            "formatedName" : "[NSDate timeIntervalSinceReferenceDate]"
+          },
+          {
+            "formatedName" : "[NSString stringWithFormat:]"
+          },
+          {
+            "formatedName" : "[_debugAudioStatusTS compare:]"
+          },
+          {
+            "formatedName" : "[NSString stringWithFormat: D:]"
+          },
+          {
+            "formatedName" : "[NSDate dateWithTimeIntervalSinceNow:]"
+          }
+        ],
+        "static" : false,
+        "returnType" : "void",
+        "classId" : "DF7ABB4895859FF3360408B74FB48B1D6",
+        "type" : "method"
+      },
+      "DEF532EA190AFC35F095873E0DEE6DAD2" : {
+        "accessControl" : "private",
+        "params" : [
+          {
+            "name" : "",
+            "type" : "",
+            "sel" : "interruptDecoder"
+          }
+        ],
+        "returnType" : "BOOL",
+        "static" : false,
+        "type" : "method",
+        "invokes" : [
+
+        ],
+        "isSwift" : false,
+        "id" : "DEF532EA190AFC35F095873E0DEE6DAD2",
+        "classId" : "DF7ABB4895859FF3360408B74FB48B1D6"
+      },
+      "DAF802154C1BA37E8344FDFD1B7A5A6B2" : {
+        "type" : "method",
+        "isSwift" : false,
+        "static" : false,
+        "returnType" : "void",
+        "accessControl" : "private",
+        "id" : "DAF802154C1BA37E8344FDFD1B7A5A6B2",
+        "invokes" : [
+          {
+            "formatedName" : "[[UIApplication sharedApplication] setIdleTimerDisabled:]"
+          },
+          {
+            "formatedName" : "[UIView animateWithDuration: delay: options: animations: completion:]"
+          }
+        ],
+        "classId" : "DF7ABB4895859FF3360408B74FB48B1D6",
+        "params" : [
+          {
+            "sel" : "showHUD",
+            "name" : "show",
+            "type" : "BOOL"
+          }
+        ]
+      },
+      "D1EB8E1E421CA26667C23833284C281A0" : {
+        "classId" : "DF7ABB4895859FF3360408B74FB48B1D6",
+        "type" : "method",
+        "accessControl" : "private",
+        "returnType" : "CGFloat",
+        "static" : false,
+        "params" : [
+          {
+            "sel" : "presentFrame",
+            "name" : "",
+            "type" : ""
+          }
+        ],
+        "invokes" : [
+          {
+            "formatedName" : "[_videoFrames removeObjectAtIndex:]"
+          },
+          {
+            "methodId" : "D288B70D7438BEA1322634DCCA0E5B7A3",
+            "classId" : "DF7ABB4895859FF3360408B74FB48B1D6"
+          },
+          {
+            "classId" : "DF7ABB4895859FF3360408B74FB48B1D6",
+            "methodId" : "D430DFA58FAFCC1927ABFDB99CE286BAC"
+          },
+          {
+            "formatedName" : "[NSDate timeIntervalSinceReferenceDate]"
+          }
+        ],
+        "isSwift" : false,
+        "id" : "D1EB8E1E421CA26667C23833284C281A0"
+      },
+      "D6294E94953694202BBB5EAB2B606E4BF" : {
+        "type" : "method",
+        "isSwift" : false,
+        "accessControl" : "private",
+        "invokes" : [
+          {
+            "formatedName" : "[_bottomBar setItems: animated:]"
+          }
+        ],
+        "params" : [
+          {
+            "type" : "",
+            "sel" : "updateBottomBar",
+            "name" : ""
+          }
+        ],
+        "classId" : "DF7ABB4895859FF3360408B74FB48B1D6",
+        "returnType" : "void",
+        "static" : false,
+        "id" : "D6294E94953694202BBB5EAB2B606E4BF"
+      },
+      "DD4ACCA0FC1F01063AAA640EBD53D53C4" : {
+        "params" : [
+          {
+            "type" : "CGFloat",
+            "name" : "position",
+            "sel" : "setMoviePosition"
+          }
+        ],
+        "returnType" : "void",
+        "invokes" : [
+          {
+            "classId" : "DF7ABB4895859FF3360408B74FB48B1D6",
+            "methodId" : "D32FD02D7B28F30F12B1E710E7C32D9D4"
+          },
+          {
+            "classId" : "DF7ABB4895859FF3360408B74FB48B1D6",
+            "methodId" : "D8B280C62455A689887AF38AC602CA70A"
+          }
+        ],
+        "id" : "DD4ACCA0FC1F01063AAA640EBD53D53C4",
+        "isSwift" : false,
+        "classId" : "DF7ABB4895859FF3360408B74FB48B1D6",
+        "type" : "method",
+        "accessControl" : "private",
+        "static" : false
+      },
+      "D489992EDF2ED8285848B41A2CA73B581" : {
+        "static" : false,
+        "classId" : "DF7ABB4895859FF3360408B74FB48B1D6",
+        "returnType" : "void",
+        "type" : "method",
+        "accessControl" : "private",
+        "params" : [
+          {
+            "type" : "",
+            "name" : "",
+            "sel" : "tick"
+          }
+        ],
+        "isSwift" : false,
+        "invokes" : [
+          {
+            "formatedName" : "[_activityIndicatorView stopAnimating]"
+          },
+          {
+            "classId" : "DF7ABB4895859FF3360408B74FB48B1D6",
+            "methodId" : "D1EB8E1E421CA26667C23833284C281A0"
+          },
+          {
+            "classId" : "DF7ABB4895859FF3360408B74FB48B1D6",
+            "methodId" : "DE3527CC349B05EA75E2516087CA13BFE"
+          },
+          {
+            "classId" : "DF7ABB4895859FF3360408B74FB48B1D6",
+            "methodId" : "D328ACD6922A23940F8B643C5AF5582D9"
+          },
+          {
+            "formatedName" : "[_activityIndicatorView startAnimating]"
+          },
+          {
+            "methodId" : "DD8070245A16284BAA480A2FAC4862826",
+            "classId" : "DF7ABB4895859FF3360408B74FB48B1D6"
+          },
+          {
+            "methodId" : "D898BD3A3282C9C138D5240121D1D7786",
+            "classId" : "DF7ABB4895859FF3360408B74FB48B1D6"
+          },
+          {
+            "methodId" : "D489992EDF2ED8285848B41A2CA73B581",
+            "classId" : "DF7ABB4895859FF3360408B74FB48B1D6"
+          }
+        ],
+        "id" : "D489992EDF2ED8285848B41A2CA73B581"
+      },
+      "D8C79FB8D515D219CB5E5DD044970263C" : {
+        "params" : [
+          {
+            "sel" : "handlePan",
+            "name" : "sender",
+            "type" : "UIPanGestureRecognizer *"
+          }
+        ],
+        "accessControl" : "private",
+        "type" : "method",
+        "returnType" : "void",
+        "classId" : "DF7ABB4895859FF3360408B74FB48B1D6",
+        "invokes" : [
+          {
+            "formatedName" : "[sender velocityInView:]"
+          },
+          {
+            "formatedName" : "[sender translationInView:]"
+          },
+          {
+            "classId" : "DF7ABB4895859FF3360408B74FB48B1D6",
+            "methodId" : "DD4ACCA0FC1F01063AAA640EBD53D53C4"
+          }
+        ],
+        "isSwift" : false,
+        "id" : "D8C79FB8D515D219CB5E5DD044970263C",
+        "static" : false
+      },
+      "DEF57352766A0CAFC6A06E0BCA0B0BCFD" : {
+        "id" : "DEF57352766A0CAFC6A06E0BCA0B0BCFD",
+        "returnType" : "void",
+        "static" : false,
+        "accessControl" : "private",
+        "isSwift" : false,
+        "params" : [
+          {
+            "sel" : "setDecoderPosition",
+            "name" : "position",
+            "type" : "CGFloat"
+          }
+        ],
+        "type" : "method",
+        "classId" : "DF7ABB4895859FF3360408B74FB48B1D6",
+        "invokes" : [
+
+        ]
+      },
+      "DD90D5A4AA749BCE219B6F532CA76FBB5" : {
+        "invokes" : [
+          {
+            "formatedName" : "[NSMutableArray array]"
+          },
+          {
+            "formatedName" : "[_parameters valueForKey:]"
+          },
+          {
+            "formatedName" : "[val isKindOfClass:]"
+          },
+          {
+            "formatedName" : "[val floatValue]"
+          },
+          {
+            "formatedName" : "[val boolValue]"
+          },
+          {
+            "methodId" : "D72248E667DC7FDD206BB0089E4455DB5",
+            "classId" : "DF7ABB4895859FF3360408B74FB48B1D6"
+          },
+          {
+            "formatedName" : "[_activityIndicatorView stopAnimating]"
+          },
+          {
+            "classId" : "DF7ABB4895859FF3360408B74FB48B1D6",
+            "methodId" : "DEC0C669C3305E381E18FFC107DC07237"
+          },
+          {
+            "methodId" : "D2D8BFFF2E6558B534C49E78BB064E5F7",
+            "classId" : "DF7ABB4895859FF3360408B74FB48B1D6"
+          },
+          {
+            "formatedName" : "[NSNumber class]"
+          }
+        ],
+        "static" : false,
+        "params" : [
+          {
+            "type" : "KxMovieDecoder *",
+            "sel" : "setMovieDecoder",
+            "name" : "decoder"
+          },
+          {
+            "name" : "error",
+            "type" : "NSError *",
+            "sel" : "withError"
+          }
+        ],
+        "classId" : "DF7ABB4895859FF3360408B74FB48B1D6",
+        "id" : "DD90D5A4AA749BCE219B6F532CA76FBB5",
+        "isSwift" : false,
+        "type" : "method",
+        "accessControl" : "private",
+        "returnType" : "void"
+      },
+      "D962D94899290D7E37F845CB35B32B92A" : {
+        "type" : "method",
+        "invokes" : [
+          {
+            "formatedName" : "[_videoFrames addObject:]"
+          }
+        ],
+        "isSwift" : false,
+        "id" : "D962D94899290D7E37F845CB35B32B92A",
+        "static" : false,
+        "returnType" : "BOOL",
+        "classId" : "DF7ABB4895859FF3360408B74FB48B1D6",
+        "params" : [
+          {
+            "sel" : "addFrames",
+            "name" : "frames",
+            "type" : "NSArray *"
+          }
+        ],
+        "accessControl" : "private"
+      },
+      "DE5C6A80A2B6AF08216F8BA643428A8A1" : {
+        "isSwift" : false,
+        "static" : false,
+        "accessControl" : "private",
+        "classId" : "DF7ABB4895859FF3360408B74FB48B1D6",
+        "type" : "method",
+        "id" : "DE5C6A80A2B6AF08216F8BA643428A8A1",
+        "returnType" : "BOOL",
+        "invokes" : [
+          {
+            "formatedName" : "[_decoder decodeFrames:]"
+          },
+          {
+            "methodId" : "D962D94899290D7E37F845CB35B32B92A",
+            "classId" : "DF7ABB4895859FF3360408B74FB48B1D6"
+          }
+        ],
+        "params" : [
+          {
+            "name" : "",
+            "type" : "",
+            "sel" : "decodeFrames"
+          }
+        ]
+      },
+      "D430DFA58FAFCC1927ABFDB99CE286BAC" : {
+        "classId" : "DF7ABB4895859FF3360408B74FB48B1D6",
+        "invokes" : [
+          {
+            "methodId" : "D2104E391C5202174496BBA707D4C3A19",
+            "classId" : "DF7ABB4895859FF3360408B74FB48B1D6"
+          },
+          {
+            "formatedName" : "[_subtitles removeObjectsInArray:]"
+          },
+          {
+            "formatedName" : "[NSMutableString string]"
+          },
+          {
+            "formatedName" : "[ms appendString:]"
+          },
+          {
+            "formatedName" : "[ms sizeWithFont: constrainedToSize: lineBreakMode:]"
+          }
+        ],
+        "params" : [
+          {
+            "type" : "",
+            "name" : "",
+            "sel" : "presentSubtitles"
+          }
+        ],
+        "id" : "D430DFA58FAFCC1927ABFDB99CE286BAC",
+        "type" : "method",
+        "accessControl" : "private",
+        "static" : false,
+        "returnType" : "void",
+        "isSwift" : false
+      },
+      "D2DC8F1BD54A68A7007F0026332A069CE" : {
+        "accessControl" : "private",
+        "returnType" : "void",
+        "params" : [
+          {
+            "sel" : "tableView",
+            "type" : "UITableView *",
+            "name" : "tableView"
+          },
+          {
+            "sel" : "didSelectRowAtIndexPath",
+            "type" : "NSIndexPath *",
+            "name" : "indexPath"
+          }
+        ],
+        "isSwift" : false,
+        "invokes" : [
+          {
+            "formatedName" : "[_tableView cellForRowAtIndexPath:]"
+          },
+          {
+            "formatedName" : "[NSIndexPath indexPathForRow: inSection:]"
+          },
+          {
+            "formatedName" : "[_subtitles removeAllObjects]"
+          }
+        ],
+        "static" : false,
+        "id" : "D2DC8F1BD54A68A7007F0026332A069CE",
+        "type" : "method",
+        "classId" : "DF7ABB4895859FF3360408B74FB48B1D6"
+      },
+      "D714CF2B9B0FA4EE2DA0B83A8588C5B11" : {
+        "type" : "method",
+        "classId" : "DF7ABB4895859FF3360408B74FB48B1D6",
+        "accessControl" : "private",
+        "id" : "D714CF2B9B0FA4EE2DA0B83A8588C5B11",
+        "params" : [
+          {
+            "type" : "id",
+            "sel" : "progressDidChange",
+            "name" : "sender"
+          }
+        ],
+        "returnType" : "void",
+        "static" : false,
+        "isSwift" : false,
+        "invokes" : [
+          {
+            "classId" : "DF7ABB4895859FF3360408B74FB48B1D6",
+            "methodId" : "DD4ACCA0FC1F01063AAA640EBD53D53C4"
+          }
+        ]
+      },
+      "DC3C311F49488E94BBD4E5E4D02F0DFA2" : {
+        "static" : false,
+        "type" : "method",
+        "isSwift" : false,
+        "returnType" : "NSString *",
+        "classId" : "DF7ABB4895859FF3360408B74FB48B1D6",
+        "id" : "DC3C311F49488E94BBD4E5E4D02F0DFA2",
+        "params" : [
+          {
+            "type" : "UITableView *",
+            "sel" : "tableView",
+            "name" : "tableView"
+          },
+          {
+            "name" : "section",
+            "sel" : "titleForHeaderInSection",
+            "type" : "NSInteger"
+          }
+        ],
+        "invokes" : [
+
+        ],
+        "accessControl" : "private"
+      },
+      "D9039F5C3DF0360E5DF0A99C33FD72751" : {
+        "params" : [
+          {
+            "sel" : "infoDidTouch",
+            "name" : "sender",
+            "type" : "id"
+          }
+        ],
+        "invokes" : [
+          {
+            "methodId" : "D9D2E032483FC3534B4CA4456421E83B6",
+            "classId" : "DF7ABB4895859FF3360408B74FB48B1D6"
+          }
+        ],
+        "id" : "D9039F5C3DF0360E5DF0A99C33FD72751",
+        "isSwift" : false,
+        "classId" : "DF7ABB4895859FF3360408B74FB48B1D6",
+        "accessControl" : "private",
+        "type" : "method",
+        "returnType" : "void",
+        "static" : false
+      },
+      "D57FCFFF5D9769582B98C825D57A33D09" : {
+        "returnType" : "BOOL",
+        "invokes" : [
+
+        ],
+        "accessControl" : "private",
+        "id" : "D57FCFFF5D9769582B98C825D57A33D09",
+        "params" : [
+          {
+            "name" : "",
+            "type" : "",
+            "sel" : "prefersStatusBarHidden"
+          }
+        ],
+        "type" : "method",
+        "static" : false,
+        "classId" : "DF7ABB4895859FF3360408B74FB48B1D6",
+        "isSwift" : false
+      },
+      "DE952462AC7E1B330E837AB35F8FA6CD5" : {
+        "static" : false,
+        "type" : "method",
+        "isSwift" : false,
+        "accessControl" : "private",
+        "params" : [
+          {
+            "sel" : "loadView",
+            "type" : "",
+            "name" : ""
+          }
+        ],
+        "classId" : "DF7ABB4895859FF3360408B74FB48B1D6",
+        "invokes" : [
+          {
+            "formatedName" : "[[UIScreen mainScreen] applicationFrame]"
+          },
+          {
+            "formatedName" : "[[UIView alloc] initWithFrame:]"
+          },
+          {
+            "formatedName" : "[UIColor blackColor]"
+          },
+          {
+            "formatedName" : "[[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:]"
+          },
+          {
+            "formatedName" : "[UIColor clearColor]"
+          },
+          {
+            "formatedName" : "[UIColor redColor]"
+          },
+          {
+            "formatedName" : "[UIFont systemFontOfSize:]"
+          },
+          {
+            "formatedName" : "[UIButton buttonWithType:]"
+          },
+          {
+            "formatedName" : "[_doneButton setTitleColor: forState:]"
+          },
+          {
+            "formatedName" : "[_doneButton setTitle: forState:]"
+          },
+          {
+            "formatedName" : "[_doneButton addTarget: action: forControlEvents:]"
+          },
+          {
+            "formatedName" : "[_topHUD addSubview:]"
+          },
+          {
+            "formatedName" : "[[UIBarButtonItem alloc] initWithBarButtonSystemItem: target: action:]"
+          },
+          {
+            "classId" : "DF7ABB4895859FF3360408B74FB48B1D6",
+            "methodId" : "D6294E94953694202BBB5EAB2B606E4BF"
+          },
+          {
+            "methodId" : "D72248E667DC7FDD206BB0089E4455DB5",
+            "classId" : "DF7ABB4895859FF3360408B74FB48B1D6"
+          }
+        ],
+        "returnType" : "void",
+        "id" : "DE952462AC7E1B330E837AB35F8FA6CD5"
+      }
+    },
+    "id" : "DF7ABB4895859FF3360408B74FB48B1D6"
+  }
+]
+    </script>
+</head>
+<body>
+    <div id="app">
+        
+    </div>
+<script type="text/javascript" src="bundle.js"></script></body>
+</html>
